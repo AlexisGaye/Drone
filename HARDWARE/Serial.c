@@ -27,7 +27,7 @@ void Serial_Init()
 	
 	//USART Init
 	USART1->CR1 &= ~(1 << 15);//oversampling by 16
-	USART1->CR1	|= 1 << 12;//1start,8data,1 stop
+	USART1->CR1	&= ~(1 << 12);//1start,8data,n stop
 	USART1->CR1 |= (1 << 3) |(1 << 2);//Transmitter and receiver enable
 	USART1->CR2 &= ~(3 << 12);//1 stop bit
 	USART1->CR3 &= ~(1 << 10);//hardware flow disable
