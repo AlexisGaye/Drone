@@ -1,6 +1,10 @@
 #include "stm32f4xx.h"
 #include "Moter.h"
 #include "Delay.h"
+#include "Receiver.h"
+
+int16_t motor[4];
+
 void PWM_Init()
 {
 	RCC->AHB1ENR |= 1 << 2;
@@ -25,7 +29,7 @@ void PWM_Init()
 	//Reso = 1/ARR + 1 =>1/10000
   TIM3->ARR = 20000 - 1;
 	TIM3->PSC |= 84 - 1;
-	ChangeDutyCycle(10);
+	ChangeDutyCycle(7);
 	
 	TIM3->CR1 |= 1 << 7;//Auto-reload preload enable
 	TIM3->CR1 &= ~( 1 << 4);//Counter used as upcounter
@@ -38,15 +42,11 @@ void PWM_Init()
 	
 	TIM3->CR1 |= 1;//counter enable
 	
-	Delay_s(4);
-	
+	while(receiver.ch[3] > 0x03F0);
 	ChangeDutyCycle(5);
-	
-	Delay_s(2);
-	
-	ChangeDutyCycle(7);
-
+	Delay_s(3);
 }
+
 
 void ChangeDutyCycle(int Duty)
 {
@@ -55,6 +55,17 @@ void ChangeDutyCycle(int Duty)
 	TIM3->CCR3 = Duty * (TIM3 -> ARR) / 100;
 	TIM3->CCR4 = Duty * (TIM3 -> ARR) / 100;
 }
+
+void ChangeAccelrator(int16_t motor[])
+{
+	motor[0] = (int16_t)(((float)(receiver.ch[3] - 0x03E8))/(0x07C4 - 0x03E8)*1000 +1000);
+	//Delay?
+	TIM3->CCR1 = motor[0];
+	TIM3->CCR2 = motor[0];
+	TIM3->CCR3 = motor[0];
+	TIM3->CCR4 = motor[0];
+}
+
 
 	
 

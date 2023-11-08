@@ -699,14 +699,14 @@
               <FilePath>..\HARDWARE\Moter.h</FilePath>
             </File>
             <File>
-              <FileName>Receiver.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\HARDWARE\Receiver.c</FilePath>
-            </File>
-            <File>
               <FileName>Receiver.h</FileName>
               <FileType>5</FileType>
               <FilePath>..\HARDWARE\Receiver.h</FilePath>
+            </File>
+            <File>
+              <FileName>Receiver.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\HARDWARE\Receiver.c</FilePath>
             </File>
           </Files>
         </Group>

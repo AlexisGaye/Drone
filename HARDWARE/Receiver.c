@@ -1,7 +1,7 @@
 #include "stm32f4xx.h"
 #include "Receiver.h"
 
-Rec receiver;
+Rec receiver = { 0 };
 
 void Receiver_Init()
 {
@@ -38,23 +38,21 @@ void Receiver_Init()
 
 void TIM1_CC_IRQHandler(void)
 {
-	static uint8_t now = 0;
-	static uint8_t yes = 0;
 	if (TIM1->SR & 0x2 )// Capture/Compare 1 interrupt flag 
 	{
 		TIM1->CNT = 0;
 		if(TIM1->CCR1 >= 4000)
 			{
-				yes = 1;
-				now = 0;
+				receiver.yes = 1;
+				receiver.now = 0;
 			}	
-		if(yes == 1)
+		if(receiver.yes == 1)
 			{
-			  receiver.ch[now++] = TIM1->CCR1;
-				if(now == 9)
+			  receiver.ch[receiver.now++] = TIM1->CCR1;
+				if(receiver.now == 9)
 				{
-					now = 0;
-					yes = 0;
+					receiver.now = 0;
+					receiver.yes = 0;
 				}
 		  }
 	}

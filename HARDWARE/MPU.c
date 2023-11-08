@@ -116,7 +116,7 @@ uint8_t MPU6050_GetID(void)
 }
 
 void MPU6050_GetData(MPU_Data *MPU_Data_Structrue)
-{
+{/*****************************************************************
 	int16_t ACCEL_Data[3];
 	int16_t GYRO_Data[3];
 	
@@ -130,15 +130,15 @@ void MPU6050_GetData(MPU_Data *MPU_Data_Structrue)
 	MPU_Data_Structrue->GyroY = GYRO_Data[1];
 	MPU_Data_Structrue->GyroZ = GYRO_Data[2];
 	
+		*******************************************************************/
 	
-	/*****************************************************************
 	MPU_Data_Structrue->AccX = MPU6050_ReadTwoReg(MPU6050_ACCEL_XOUT_H);
 	MPU_Data_Structrue->AccY = MPU6050_ReadTwoReg(MPU6050_ACCEL_YOUT_H);;
 	MPU_Data_Structrue->AccZ = MPU6050_ReadTwoReg(MPU6050_ACCEL_ZOUT_H);
 	MPU_Data_Structrue->GyroX = MPU6050_ReadTwoReg(MPU6050_GYRO_XOUT_H);
 	MPU_Data_Structrue->GyroY = MPU6050_ReadTwoReg(MPU6050_GYRO_YOUT_H);
 	MPU_Data_Structrue->GyroZ = MPU6050_ReadTwoReg(MPU6050_GYRO_ZOUT_H);
-	*******************************************************************/
+
 	
 	/*******************************************
 	DataH = MPU6050_ReadReg(MPU6050_ACCEL_XOUT_H);

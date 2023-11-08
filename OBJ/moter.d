@@ -29,3 +29,4 @@
 ..\obj\moter.o: ..\FWLIB\inc\misc.h
 ..\obj\moter.o: ..\HARDWARE\Moter.h
 ..\obj\moter.o: ..\SYSTEM\Delay.h
+..\obj\moter.o: ..\HARDWARE\Receiver.h

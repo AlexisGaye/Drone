@@ -36,7 +36,7 @@ void Serial_Init()
 	float USARTDIV;
   unsigned int  DIV_M;
   unsigned int  DIV_F;
-  USARTDIV=84000000/16/9600; 
+  USARTDIV=84000000/16/115200; 
   DIV_M =(u32) USARTDIV;
   DIV_F = (USARTDIV- DIV_M)*16; 
 	

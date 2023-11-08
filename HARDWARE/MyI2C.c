@@ -48,14 +48,14 @@ void MyI2C_Init(void)
 {
 	RCC->AHB1ENR |= 1 << 1;//GPIOB clock is enable
 	
-	GPIOB->MODER &= ~((3 << 2)|(3 << 4)); //return to 00
-	GPIOB->MODER |= (1 << 2)|(1 << 4);//Gen out
-	GPIOB->OTYPER |= ((1 << 1)|(1 << 2));//OD
-	GPIOB->OSPEEDR |= ((1 << 3)|(1 << 5));// High speed
-	GPIOB->PUPDR &= ~((3 << 2)|(3 << 4));//NO pull-up,pull down
+	GPIOB->MODER &= ~((3 << 16)|(3 << 18)); //return to 00
+	GPIOB->MODER |= (1 << 16)|(1 << 18);//Gen out
+	GPIOB->OTYPER |= ((1 << 8)|(1 << 9));//OD
+	GPIOB->OSPEEDR |= ((1 << 17)|(1 << 19));// High speed
+	GPIOB->PUPDR &= ~((3 << 16)|(3 << 18));//NO pull-up,pull down
 	//PB1 and PB2 are set to be OD
-	GPIOB->ODR |= 1 << 1;
-	GPIOB->ODR |= 1 << 2;
+	GPIOB->ODR |= 1 << 8;
+	GPIOB->ODR |= 1 << 9;
 	
 	}
 
