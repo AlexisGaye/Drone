@@ -1,12 +1,12 @@
-..\obj\moter.o: Moter.c
-..\obj\moter.o: stm32f4xx.h
+..\obj\moter.o: ..\HARDWARE\Moter.c
+..\obj\moter.o: ..\USER\stm32f4xx.h
 ..\obj\moter.o: ..\CORE\core_cm4.h
 ..\obj\moter.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 ..\obj\moter.o: ..\CORE\core_cmInstr.h
 ..\obj\moter.o: ..\CORE\core_cmFunc.h
 ..\obj\moter.o: ..\CORE\core_cmSimd.h
-..\obj\moter.o: system_stm32f4xx.h
-..\obj\moter.o: stm32f4xx_conf.h
+..\obj\moter.o: ..\USER\system_stm32f4xx.h
+..\obj\moter.o: ..\USER\stm32f4xx_conf.h
 ..\obj\moter.o: ..\FWLIB\inc\stm32f4xx_adc.h
 ..\obj\moter.o: ..\USER\stm32f4xx.h
 ..\obj\moter.o: ..\FWLIB\inc\stm32f4xx_crc.h

@@ -41,10 +41,7 @@ void PWM_Init()
 	TIM3->CCER |=1|(1 << 4)|(1 << 8)|(1 << 12);//Compare 1/2/3/4 output enable
 	
 	TIM3->CR1 |= 1;//counter enable
-	
-	while(receiver.ch[3] > 0x03F0);
-	ChangeDutyCycle(5);
-	Delay_s(3);
+
 }
 
 
@@ -59,7 +56,6 @@ void ChangeDutyCycle(int Duty)
 void ChangeAccelrator(int16_t motor[])
 {
 	motor[0] = (int16_t)(((float)(receiver.ch[3] - 0x03E8))/(0x07C4 - 0x03E8)*1000 +1000);
-	//Delay?
 	TIM3->CCR1 = motor[0];
 	TIM3->CCR2 = motor[0];
 	TIM3->CCR3 = motor[0];

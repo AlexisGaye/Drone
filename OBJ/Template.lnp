@@ -49,8 +49,8 @@
 "..\obj\mpu.o"
 "..\obj\hmc5883l.o"
 "..\obj\serial.o"
-"..\obj\moter.o"
 "..\obj\receiver.o"
+"..\obj\moter.o"
 --strict --scatter "..\OBJ\Template.sct"
 --summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
 --info sizes --info totals --info unused --info veneers

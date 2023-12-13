@@ -7,9 +7,7 @@
 #include "Moter.h"
 #include "Receiver.h"
 
-HMC_Data HMC_Data_Structure;
-MPU_Data MPU_Data_Structure;
-double Magangle;
+
 int main(void)
 {
 	
@@ -18,6 +16,8 @@ int main(void)
 	Serial_Init();
 	Receiver_Init();
 	PWM_Init();
+	
+	uint32_t i = 0;
 	while (1)
 	{
 		
@@ -25,7 +25,8 @@ int main(void)
 		{
 			ChangeAccelrator(motor);
 		}
-		
+		if(i > 5000000)
+		{
 		MPU6050_GetData(&MPU_Data_Structure);
 		HMC5883L_GetData(&HMC_Data_Structure);
 		Serial_SendArray("REC:",4);
@@ -42,6 +43,8 @@ int main(void)
 		Serial_SendByte(' ');
 		Serial_SendNumber(MPU_Data_Structure.AccZ,4);
 		Serial_SendByte('\n');
-		Delay_s(2);
+		i = 0;
+		}
+		i++;
 	}
 }

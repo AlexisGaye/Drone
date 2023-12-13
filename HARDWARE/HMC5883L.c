@@ -4,6 +4,7 @@
 #include "HMC5883LAdress.h"
 #include <math.h>
 
+HMC_Data HMC_Data_Structure;
 
 void HMC5883L_WriteReg(uint8_t RegAddress, uint8_t Data)
 {
@@ -106,19 +107,19 @@ void HMC5883L_Init()
 
 void HMC5883L_GetData(HMC_Data *HMC_Data_Structure)
 {
-	
+
 	HMC_Data_Structure->GSX = HMC5883L_ReadTwoReg(DATAX_M);
 	HMC_Data_Structure->GSZ = HMC5883L_ReadTwoReg(DATAY_M);
 	HMC_Data_Structure->GSY = HMC5883L_ReadTwoReg(DATAZ_M);
-	
-	
+
+		/*
 	int16_t GS_Data[3];
 	HMC5882L_ReadAllReg(DATAX_M,GS_Data,3);
 	HMC_Data_Structure->GSX = GS_Data[0];
 	HMC_Data_Structure->GSZ = GS_Data[1];
 	HMC_Data_Structure->GSY = GS_Data[2];
 	
-	
+		*/
 	
 	/*****************************************
 	DataH = HMC5883L_ReadReg(DATAX_M); 

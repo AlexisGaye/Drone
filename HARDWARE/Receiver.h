@@ -14,6 +14,4 @@ extern Rec receiver;
 
 void Receiver_Init();
 
-
-
 #endif

@@ -689,11 +689,6 @@
               <FilePath>..\HARDWARE\Serial.h</FilePath>
             </File>
             <File>
-              <FileName>Moter.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\Moter.c</FilePath>
-            </File>
-            <File>
               <FileName>Moter.h</FileName>
               <FileType>5</FileType>
               <FilePath>..\HARDWARE\Moter.h</FilePath>
@@ -707,6 +702,11 @@
               <FileName>Receiver.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\HARDWARE\Receiver.c</FilePath>
+            </File>
+            <File>
+              <FileName>Moter.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\HARDWARE\Moter.c</FilePath>
             </File>
           </Files>
         </Group>

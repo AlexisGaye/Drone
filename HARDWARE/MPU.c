@@ -5,6 +5,9 @@
 
 #define MPU6050_ADDRESS		0xD0
 
+
+MPU_Data MPU_Data_Structure;
+
 void MPU6050_WriteReg(uint8_t RegAddress, uint8_t Data)
 {
 	MyI2C_Start();

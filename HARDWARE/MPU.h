@@ -11,6 +11,8 @@ typedef struct MPU_Data
 	int16_t GyroZ;
 }MPU_Data;
 
+extern MPU_Data MPU_Data_Structure;
+
 void MPU6050_WriteReg(uint8_t RegAddress, uint8_t Data);
 uint8_t MPU6050_ReadReg(uint8_t RegAddress);
 int16_t MPU6050_ReadTwoReg(uint8_t RegAddress);

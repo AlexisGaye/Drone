@@ -4,7 +4,6 @@
 
 #define HMC5883L_ADDRESS_W		0x3C //write adress
 #define HMC5883L_ADDRESS_R		0x3D //read adress
-#include "stdint.h"
 
 typedef struct HMC_Data
 {
@@ -12,6 +11,8 @@ typedef struct HMC_Data
 	int16_t GSY;
 	int16_t GSZ;
 }HMC_Data;
+
+extern HMC_Data HMC_Data_Structure;
 
 void HMC5883L_WriteReg(uint8_t RegAddress, uint8_t Data);
 uint8_t HMC5883L_ReadReg(uint8_t RegAddress);
