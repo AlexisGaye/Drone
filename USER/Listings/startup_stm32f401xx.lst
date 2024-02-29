@@ -114,9 +114,9 @@ ARM Macro Assembler    Page 2
    75 00000030 00000000        DCD              DebugMon_Handler ; Debug Monito
                                                             r Handler
    76 00000034 00000000        DCD              0           ; Reserved
-   77 00000038 00000000        DCD              PendSV_Handler ; PendSV Handler
-                                                            
-   78 0000003C 00000000        DCD              SysTick_Handler 
+   77 00000038 00000000        DCD              OS_CPU_PendSVHandler 
+                                                            ; PendSV Handler
+   78 0000003C 00000000        DCD              OS_CPU_SysTickHandler 
                                                             ; SysTick Handler
    79 00000040         
    80 00000040         ; External Interrupts
@@ -502,16 +502,16 @@ K]
 K]
   218 00000014 E7FE            B                .
   219 00000016                 ENDP
-  220 00000016         PendSV_Handler
+  220 00000016         OS_CPU_PendSVHandler
                                PROC
-  221 00000016                 EXPORT           PendSV_Handler             [WEA
-K]
+  221 00000016                 EXPORT           OS_CPU_PendSVHandler           
+  [WEAK]
   222 00000016 E7FE            B                .
   223 00000018                 ENDP
-  224 00000018         SysTick_Handler
+  224 00000018         OS_CPU_SysTickHandler
                                PROC
-  225 00000018                 EXPORT           SysTick_Handler            [WEA
-K]
+  225 00000018                 EXPORT           OS_CPU_SysTickHandler          
+  [WEAK]
   226 00000018 E7FE            B                .
   227 0000001A                 ENDP
   228 0000001A         
@@ -1258,6 +1258,24 @@ Relocatable symbols
       At line 65 in file ..\CORE\startup_stm32f401xx.s
       At line 188 in file ..\CORE\startup_stm32f401xx.s
 
+OS_CPU_PendSVHandler 00000016
+
+Symbol: OS_CPU_PendSVHandler
+   Definitions
+      At line 220 in file ..\CORE\startup_stm32f401xx.s
+   Uses
+      At line 77 in file ..\CORE\startup_stm32f401xx.s
+      At line 221 in file ..\CORE\startup_stm32f401xx.s
+
+OS_CPU_SysTickHandler 00000018
+
+Symbol: OS_CPU_SysTickHandler
+   Definitions
+      At line 224 in file ..\CORE\startup_stm32f401xx.s
+   Uses
+      At line 78 in file ..\CORE\startup_stm32f401xx.s
+      At line 225 in file ..\CORE\startup_stm32f401xx.s
+
 OTG_FS_IRQHandler 0000001A
 
 Symbol: OTG_FS_IRQHandler
@@ -1285,15 +1303,6 @@ Symbol: PVD_IRQHandler
       At line 82 in file ..\CORE\startup_stm32f401xx.s
       At line 232 in file ..\CORE\startup_stm32f401xx.s
 
-PendSV_Handler 00000016
-
-Symbol: PendSV_Handler
-   Definitions
-      At line 220 in file ..\CORE\startup_stm32f401xx.s
-   Uses
-      At line 77 in file ..\CORE\startup_stm32f401xx.s
-      At line 221 in file ..\CORE\startup_stm32f401xx.s
-
 RCC_IRQHandler 0000001A
 
 Symbol: RCC_IRQHandler
@@ -1305,6 +1314,12 @@ Symbol: RCC_IRQHandler
 
 RTC_Alarm_IRQHandler 0000001A
 
+
+
+
+ARM Macro Assembler    Page 8 Alphabetic symbol ordering
+Relocatable symbols
+
 Symbol: RTC_Alarm_IRQHandler
    Definitions
       At line 324 in file ..\CORE\startup_stm32f401xx.s
@@ -1313,12 +1328,6 @@ Symbol: RTC_Alarm_IRQHandler
       At line 267 in file ..\CORE\startup_stm32f401xx.s
 
 RTC_WKUP_IRQHandler 0000001A
-
-
-
-
-ARM Macro Assembler    Page 8 Alphabetic symbol ordering
-Relocatable symbols
 
 Symbol: RTC_WKUP_IRQHandler
    Definitions
@@ -1370,6 +1379,12 @@ Symbol: SPI3_IRQHandler
       At line 329 in file ..\CORE\startup_stm32f401xx.s
    Uses
       At line 132 in file ..\CORE\startup_stm32f401xx.s
+
+
+
+ARM Macro Assembler    Page 9 Alphabetic symbol ordering
+Relocatable symbols
+
       At line 272 in file ..\CORE\startup_stm32f401xx.s
 
 SPI4_IRQHandler 0000001A
@@ -1379,12 +1394,6 @@ Symbol: SPI4_IRQHandler
       At line 344 in file ..\CORE\startup_stm32f401xx.s
    Uses
       At line 165 in file ..\CORE\startup_stm32f401xx.s
-
-
-
-ARM Macro Assembler    Page 9 Alphabetic symbol ordering
-Relocatable symbols
-
       At line 286 in file ..\CORE\startup_stm32f401xx.s
 
 SVC_Handler 00000012
@@ -1395,15 +1404,6 @@ Symbol: SVC_Handler
    Uses
       At line 74 in file ..\CORE\startup_stm32f401xx.s
       At line 212 in file ..\CORE\startup_stm32f401xx.s
-
-SysTick_Handler 00000018
-
-Symbol: SysTick_Handler
-   Definitions
-      At line 224 in file ..\CORE\startup_stm32f401xx.s
-   Uses
-      At line 78 in file ..\CORE\startup_stm32f401xx.s
-      At line 225 in file ..\CORE\startup_stm32f401xx.s
 
 TAMP_STAMP_IRQHandler 0000001A
 

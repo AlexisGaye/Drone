@@ -339,7 +339,7 @@
               <MiscControls></MiscControls>
               <Define>USE_STDPERIPH_DRIVER,USE_STM324xG_EVAL,STM32F401xx</Define>
               <Undefine></Undefine>
-              <IncludePath>..\USER;..\CORE;..\FWLIB\inc;..\SYSTEM;..\HARDWARE</IncludePath>
+              <IncludePath>..\USER;..\CORE;..\FWLIB\inc;..\SYSTEM;..\HARDWARE;..\UCOS_CONFIG;..\UCOS_CORE;..\UCOS_PORT</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -689,9 +689,9 @@
               <FilePath>..\HARDWARE\Serial.h</FilePath>
             </File>
             <File>
-              <FileName>Moter.h</FileName>
-              <FileType>5</FileType>
-              <FilePath>..\HARDWARE\Moter.h</FilePath>
+              <FileName>Receiver.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\HARDWARE\Receiver.c</FilePath>
             </File>
             <File>
               <FileName>Receiver.h</FileName>
@@ -699,14 +699,129 @@
               <FilePath>..\HARDWARE\Receiver.h</FilePath>
             </File>
             <File>
-              <FileName>Receiver.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\HARDWARE\Receiver.c</FilePath>
-            </File>
-            <File>
               <FileName>Moter.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\HARDWARE\Moter.c</FilePath>
+            </File>
+            <File>
+              <FileName>Moter.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\HARDWARE\Moter.h</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
+          <GroupName>UCOS_CONFIG</GroupName>
+          <Files>
+            <File>
+              <FileName>os_cfg.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\UCOS_CONFIG\os_cfg.h</FilePath>
+            </File>
+            <File>
+              <FileName>app_cfg.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\UCOS_CONFIG\app_cfg.h</FilePath>
+            </File>
+            <File>
+              <FileName>app_hooks.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\UCOS_CONFIG\app_hooks.c</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
+          <GroupName>UCOS_CORE</GroupName>
+          <Files>
+            <File>
+              <FileName>os_core.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\UCOS_CORE\os_core.c</FilePath>
+            </File>
+            <File>
+              <FileName>os_dbg_r.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\UCOS_CORE\os_dbg_r.c</FilePath>
+            </File>
+            <File>
+              <FileName>os_flag.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\UCOS_CORE\os_flag.c</FilePath>
+            </File>
+            <File>
+              <FileName>os_mbox.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\UCOS_CORE\os_mbox.c</FilePath>
+            </File>
+            <File>
+              <FileName>os_mem.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\UCOS_CORE\os_mem.c</FilePath>
+            </File>
+            <File>
+              <FileName>os_mutex.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\UCOS_CORE\os_mutex.c</FilePath>
+            </File>
+            <File>
+              <FileName>os_q.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\UCOS_CORE\os_q.c</FilePath>
+            </File>
+            <File>
+              <FileName>os_sem.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\UCOS_CORE\os_sem.c</FilePath>
+            </File>
+            <File>
+              <FileName>os_task.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\UCOS_CORE\os_task.c</FilePath>
+            </File>
+            <File>
+              <FileName>os_time.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\UCOS_CORE\os_time.c</FilePath>
+            </File>
+            <File>
+              <FileName>os_tmr.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\UCOS_CORE\os_tmr.c</FilePath>
+            </File>
+            <File>
+              <FileName>ucos_ii.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\UCOS_CORE\ucos_ii.h</FilePath>
+            </File>
+            <File>
+              <FileName>os.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\UCOS_CORE\os.h</FilePath>
+            </File>
+            <File>
+              <FileName>os_trace.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\UCOS_CORE\os_trace.h</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
+          <GroupName>UCOS_PORT</GroupName>
+          <Files>
+            <File>
+              <FileName>os_cpu.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\UCOS_PORT\os_cpu.h</FilePath>
+            </File>
+            <File>
+              <FileName>os_cpu_a.asm</FileName>
+              <FileType>2</FileType>
+              <FilePath>..\UCOS_PORT\os_cpu_a.asm</FilePath>
+            </File>
+            <File>
+              <FileName>os_cpu_c.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\UCOS_PORT\os_cpu_c.c</FilePath>
             </File>
           </Files>
         </Group>

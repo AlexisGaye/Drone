@@ -16,7 +16,7 @@ extern HMC_Data HMC_Data_Structure;
 
 void HMC5883L_WriteReg(uint8_t RegAddress, uint8_t Data);
 uint8_t HMC5883L_ReadReg(uint8_t RegAddress);
-void HMC5883L_Init();
+void HMC5883L_Init(void);
 void HMC5883L_GetData(HMC_Data *HMC_Data_Structure);
 double HMC5883L_Magangle(HMC_Data HMC_Data_Structure);
 void HMC5882L_ReadAllReg(uint8_t RegAddress, int16_t* data,uint8_t count);

@@ -12,6 +12,6 @@ typedef struct Rec
 
 extern Rec receiver;
 
-void Receiver_Init();
+void Receiver_Init(void);
 
 #endif

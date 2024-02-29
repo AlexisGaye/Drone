@@ -1,6 +1,6 @@
 Dependencies for Project 'Template', Target 'Target 1': (DO NOT MODIFY !)
 CompilerVersion: 5060960::V5.06 update 7 (build 960)::ARMCC
-F (.\main.c)(0x655EFCD9)(--c99 -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\FWLIB\inc -I ..\SYSTEM -I ..\HARDWARE-I.\RTE\_Target_1-ID:\keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="530" -DSTM32F401xE -D_RTE_ -DUSE_STDPERIPH_DRIVER -DUSE_STM324xG_EVAL -DSTM32F401xx-o ..\obj\main.o --omf_browse ..\obj\main.crf --depend ..\obj\main.d)
+F (.\main.c)(0x655EFCD9)(--c99 -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\FWLIB\inc -I ..\SYSTEM -I ..\HARDWARE -I ..\UCOS_CONFIG -I ..\UCOS_CORE -I ..\UCOS_PORT-I.\RTE\_Target_1-ID:\keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="530" -DSTM32F401xE -D_RTE_ -DUSE_STDPERIPH_DRIVER -DUSE_STM324xG_EVAL -DSTM32F401xx-o ..\obj\main.o --omf_browse ..\obj\main.crf --depend ..\obj\main.d)
 I (stm32f4xx.h)(0x64EF2D12)
 I (..\CORE\core_cm4.h)(0x61F12857)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
@@ -32,11 +32,11 @@ I (..\FWLIB\inc\misc.h)(0x61F25A2D)
 I (..\SYSTEM\Delay.h)(0x64F006C8)
 I (..\HARDWARE\MPU.h)(0x655488DA)
 I (..\HARDWARE\MyI2C.h)(0x63C4F929)
-I (..\HARDWARE\HMC5883L.h)(0x655488DA)
+I (..\HARDWARE\HMC5883L.h)(0x65DFFFD6)
 I (..\HARDWARE\Serial.h)(0x6548FBBA)
-I (..\HARDWARE\Moter.h)(0x6548AE3F)
-I (..\HARDWARE\Receiver.h)(0x65548A0F)
-F (.\stm32f4xx_it.c)(0x64EF2F90)(--c99 -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\FWLIB\inc -I ..\SYSTEM -I ..\HARDWARE-I.\RTE\_Target_1-ID:\keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="530" -DSTM32F401xE -D_RTE_ -DUSE_STDPERIPH_DRIVER -DUSE_STM324xG_EVAL -DSTM32F401xx-o ..\obj\stm32f4xx_it.o --omf_browse ..\obj\stm32f4xx_it.crf --depend ..\obj\stm32f4xx_it.d)
+I (..\HARDWARE\Moter.h)(0x65DFFFA6)
+I (..\HARDWARE\Receiver.h)(0x65DFFFA6)
+F (.\stm32f4xx_it.c)(0x65DF3D8D)(--c99 -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\FWLIB\inc -I ..\SYSTEM -I ..\HARDWARE -I ..\UCOS_CONFIG -I ..\UCOS_CORE -I ..\UCOS_PORT-I.\RTE\_Target_1-ID:\keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="530" -DSTM32F401xE -D_RTE_ -DUSE_STDPERIPH_DRIVER -DUSE_STM324xG_EVAL -DSTM32F401xx-o ..\obj\stm32f4xx_it.o --omf_browse ..\obj\stm32f4xx_it.crf --depend ..\obj\stm32f4xx_it.d)
 I (stm32f4xx_it.h)(0x6203D001)
 I (stm32f4xx.h)(0x64EF2D12)
 I (..\CORE\core_cm4.h)(0x61F12857)
@@ -67,7 +67,7 @@ I (..\FWLIB\inc\stm32f4xx_usart.h)(0x61F7A884)
 I (..\FWLIB\inc\stm32f4xx_wwdg.h)(0x61F25A3F)
 I (..\FWLIB\inc\misc.h)(0x61F25A2D)
 I (..\SYSTEM\Delay.h)(0x64F006C8)
-F (.\system_stm32f4xx.c)(0x64F6BFBB)(--c99 -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\FWLIB\inc -I ..\SYSTEM -I ..\HARDWARE-I.\RTE\_Target_1-ID:\keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="530" -DSTM32F401xE -D_RTE_ -DUSE_STDPERIPH_DRIVER -DUSE_STM324xG_EVAL -DSTM32F401xx-o ..\obj\system_stm32f4xx.o --omf_browse ..\obj\system_stm32f4xx.crf --depend ..\obj\system_stm32f4xx.d)
+F (.\system_stm32f4xx.c)(0x64F6BFBB)(--c99 -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\FWLIB\inc -I ..\SYSTEM -I ..\HARDWARE -I ..\UCOS_CONFIG -I ..\UCOS_CORE -I ..\UCOS_PORT-I.\RTE\_Target_1-ID:\keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="530" -DSTM32F401xE -D_RTE_ -DUSE_STDPERIPH_DRIVER -DUSE_STM324xG_EVAL -DSTM32F401xx-o ..\obj\system_stm32f4xx.o --omf_browse ..\obj\system_stm32f4xx.crf --depend ..\obj\system_stm32f4xx.d)
 I (stm32f4xx.h)(0x64EF2D12)
 I (..\CORE\core_cm4.h)(0x61F12857)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
@@ -96,8 +96,8 @@ I (..\FWLIB\inc\stm32f4xx_tim.h)(0x61F25A3E)
 I (..\FWLIB\inc\stm32f4xx_usart.h)(0x61F7A884)
 I (..\FWLIB\inc\stm32f4xx_wwdg.h)(0x61F25A3F)
 I (..\FWLIB\inc\misc.h)(0x61F25A2D)
-F (..\CORE\startup_stm32f401xx.s)(0x62051C83)(--cpu Cortex-M4.fp.sp -g --apcs=interwork -I.\RTE\_Target_1-ID:\keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\Keil_v5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 530" --pd "STM32F401xE SETA 1" --pd "_RTE_ SETA 1"--list .\listings\startup_stm32f401xx.lst --xref -o ..\obj\startup_stm32f401xx.o --depend ..\obj\startup_stm32f401xx.d)
-F (..\SYSTEM\Delay.c)(0x64F6BB1A)(--c99 -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\FWLIB\inc -I ..\SYSTEM -I ..\HARDWARE-I.\RTE\_Target_1-ID:\keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="530" -DSTM32F401xE -D_RTE_ -DUSE_STDPERIPH_DRIVER -DUSE_STM324xG_EVAL -DSTM32F401xx-o ..\obj\delay.o --omf_browse ..\obj\delay.crf --depend ..\obj\delay.d)
+F (..\CORE\startup_stm32f401xx.s)(0x65DFEB95)(--cpu Cortex-M4.fp.sp -g --apcs=interwork -I.\RTE\_Target_1-ID:\keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\Keil_v5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 530" --pd "STM32F401xE SETA 1" --pd "_RTE_ SETA 1"--list .\listings\startup_stm32f401xx.lst --xref -o ..\obj\startup_stm32f401xx.o --depend ..\obj\startup_stm32f401xx.d)
+F (..\SYSTEM\Delay.c)(0x64F6BB1A)(--c99 -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\FWLIB\inc -I ..\SYSTEM -I ..\HARDWARE -I ..\UCOS_CONFIG -I ..\UCOS_CORE -I ..\UCOS_PORT-I.\RTE\_Target_1-ID:\keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="530" -DSTM32F401xE -D_RTE_ -DUSE_STDPERIPH_DRIVER -DUSE_STM324xG_EVAL -DSTM32F401xx-o ..\obj\delay.o --omf_browse ..\obj\delay.crf --depend ..\obj\delay.d)
 I (..\USER\stm32f4xx.h)(0x64EF2D12)
 I (..\CORE\core_cm4.h)(0x61F12857)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
@@ -126,7 +126,7 @@ I (..\FWLIB\inc\stm32f4xx_usart.h)(0x61F7A884)
 I (..\FWLIB\inc\stm32f4xx_wwdg.h)(0x61F25A3F)
 I (..\FWLIB\inc\misc.h)(0x61F25A2D)
 F (..\SYSTEM\Delay.h)(0x64F006C8)()
-F (..\FWLIB\src\misc.c)(0x61F25A40)(--c99 -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\FWLIB\inc -I ..\SYSTEM -I ..\HARDWARE-I.\RTE\_Target_1-ID:\keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="530" -DSTM32F401xE -D_RTE_ -DUSE_STDPERIPH_DRIVER -DUSE_STM324xG_EVAL -DSTM32F401xx-o ..\obj\misc.o --omf_browse ..\obj\misc.crf --depend ..\obj\misc.d)
+F (..\FWLIB\src\misc.c)(0x61F25A40)(--c99 -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\FWLIB\inc -I ..\SYSTEM -I ..\HARDWARE -I ..\UCOS_CONFIG -I ..\UCOS_CORE -I ..\UCOS_PORT-I.\RTE\_Target_1-ID:\keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="530" -DSTM32F401xE -D_RTE_ -DUSE_STDPERIPH_DRIVER -DUSE_STM324xG_EVAL -DSTM32F401xx-o ..\obj\misc.o --omf_browse ..\obj\misc.crf --depend ..\obj\misc.d)
 I (..\FWLIB\inc\misc.h)(0x61F25A2D)
 I (..\USER\stm32f4xx.h)(0x64EF2D12)
 I (..\CORE\core_cm4.h)(0x61F12857)
@@ -154,7 +154,7 @@ I (..\FWLIB\inc\stm32f4xx_syscfg.h)(0x61F25A3E)
 I (..\FWLIB\inc\stm32f4xx_tim.h)(0x61F25A3E)
 I (..\FWLIB\inc\stm32f4xx_usart.h)(0x61F7A884)
 I (..\FWLIB\inc\stm32f4xx_wwdg.h)(0x61F25A3F)
-F (..\FWLIB\src\stm32f4xx_adc.c)(0x61F25A40)(--c99 -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\FWLIB\inc -I ..\SYSTEM -I ..\HARDWARE-I.\RTE\_Target_1-ID:\keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="530" -DSTM32F401xE -D_RTE_ -DUSE_STDPERIPH_DRIVER -DUSE_STM324xG_EVAL -DSTM32F401xx-o ..\obj\stm32f4xx_adc.o --omf_browse ..\obj\stm32f4xx_adc.crf --depend ..\obj\stm32f4xx_adc.d)
+F (..\FWLIB\src\stm32f4xx_adc.c)(0x61F25A40)(--c99 -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\FWLIB\inc -I ..\SYSTEM -I ..\HARDWARE -I ..\UCOS_CONFIG -I ..\UCOS_CORE -I ..\UCOS_PORT-I.\RTE\_Target_1-ID:\keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="530" -DSTM32F401xE -D_RTE_ -DUSE_STDPERIPH_DRIVER -DUSE_STM324xG_EVAL -DSTM32F401xx-o ..\obj\stm32f4xx_adc.o --omf_browse ..\obj\stm32f4xx_adc.crf --depend ..\obj\stm32f4xx_adc.d)
 I (..\FWLIB\inc\stm32f4xx_adc.h)(0x61F25A2D)
 I (..\USER\stm32f4xx.h)(0x64EF2D12)
 I (..\CORE\core_cm4.h)(0x61F12857)
@@ -182,7 +182,7 @@ I (..\FWLIB\inc\stm32f4xx_tim.h)(0x61F25A3E)
 I (..\FWLIB\inc\stm32f4xx_usart.h)(0x61F7A884)
 I (..\FWLIB\inc\stm32f4xx_wwdg.h)(0x61F25A3F)
 I (..\FWLIB\inc\misc.h)(0x61F25A2D)
-F (..\FWLIB\src\stm32f4xx_can.c)(0x620230EE)(--c99 -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\FWLIB\inc -I ..\SYSTEM -I ..\HARDWARE-I.\RTE\_Target_1-ID:\keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="530" -DSTM32F401xE -D_RTE_ -DUSE_STDPERIPH_DRIVER -DUSE_STM324xG_EVAL -DSTM32F401xx-o ..\obj\stm32f4xx_can.o --omf_browse ..\obj\stm32f4xx_can.crf --depend ..\obj\stm32f4xx_can.d)
+F (..\FWLIB\src\stm32f4xx_can.c)(0x620230EE)(--c99 -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\FWLIB\inc -I ..\SYSTEM -I ..\HARDWARE -I ..\UCOS_CONFIG -I ..\UCOS_CORE -I ..\UCOS_PORT-I.\RTE\_Target_1-ID:\keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="530" -DSTM32F401xE -D_RTE_ -DUSE_STDPERIPH_DRIVER -DUSE_STM324xG_EVAL -DSTM32F401xx-o ..\obj\stm32f4xx_can.o --omf_browse ..\obj\stm32f4xx_can.crf --depend ..\obj\stm32f4xx_can.d)
 I (..\FWLIB\inc\stm32f4xx_can.h)(0x61F25A2E)
 I (..\USER\stm32f4xx.h)(0x64EF2D12)
 I (..\CORE\core_cm4.h)(0x61F12857)
@@ -211,7 +211,7 @@ I (..\FWLIB\inc\stm32f4xx_tim.h)(0x61F25A3E)
 I (..\FWLIB\inc\stm32f4xx_usart.h)(0x61F7A884)
 I (..\FWLIB\inc\stm32f4xx_wwdg.h)(0x61F25A3F)
 I (..\FWLIB\inc\misc.h)(0x61F25A2D)
-F (..\FWLIB\src\stm32f4xx_cec.c)(0x61F25A41)(--c99 -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\FWLIB\inc -I ..\SYSTEM -I ..\HARDWARE-I.\RTE\_Target_1-ID:\keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="530" -DSTM32F401xE -D_RTE_ -DUSE_STDPERIPH_DRIVER -DUSE_STM324xG_EVAL -DSTM32F401xx-o ..\obj\stm32f4xx_cec.o --omf_browse ..\obj\stm32f4xx_cec.crf --depend ..\obj\stm32f4xx_cec.d)
+F (..\FWLIB\src\stm32f4xx_cec.c)(0x61F25A41)(--c99 -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\FWLIB\inc -I ..\SYSTEM -I ..\HARDWARE -I ..\UCOS_CONFIG -I ..\UCOS_CORE -I ..\UCOS_PORT-I.\RTE\_Target_1-ID:\keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="530" -DSTM32F401xE -D_RTE_ -DUSE_STDPERIPH_DRIVER -DUSE_STM324xG_EVAL -DSTM32F401xx-o ..\obj\stm32f4xx_cec.o --omf_browse ..\obj\stm32f4xx_cec.crf --depend ..\obj\stm32f4xx_cec.d)
 I (..\FWLIB\inc\stm32f4xx_cec.h)(0x61F25A2E)
 I (..\USER\stm32f4xx.h)(0x64EF2D12)
 I (..\CORE\core_cm4.h)(0x61F12857)
@@ -240,7 +240,7 @@ I (..\FWLIB\inc\stm32f4xx_tim.h)(0x61F25A3E)
 I (..\FWLIB\inc\stm32f4xx_usart.h)(0x61F7A884)
 I (..\FWLIB\inc\stm32f4xx_wwdg.h)(0x61F25A3F)
 I (..\FWLIB\inc\misc.h)(0x61F25A2D)
-F (..\FWLIB\src\stm32f4xx_crc.c)(0x61F25A42)(--c99 -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\FWLIB\inc -I ..\SYSTEM -I ..\HARDWARE-I.\RTE\_Target_1-ID:\keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="530" -DSTM32F401xE -D_RTE_ -DUSE_STDPERIPH_DRIVER -DUSE_STM324xG_EVAL -DSTM32F401xx-o ..\obj\stm32f4xx_crc.o --omf_browse ..\obj\stm32f4xx_crc.crf --depend ..\obj\stm32f4xx_crc.d)
+F (..\FWLIB\src\stm32f4xx_crc.c)(0x61F25A42)(--c99 -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\FWLIB\inc -I ..\SYSTEM -I ..\HARDWARE -I ..\UCOS_CONFIG -I ..\UCOS_CORE -I ..\UCOS_PORT-I.\RTE\_Target_1-ID:\keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="530" -DSTM32F401xE -D_RTE_ -DUSE_STDPERIPH_DRIVER -DUSE_STM324xG_EVAL -DSTM32F401xx-o ..\obj\stm32f4xx_crc.o --omf_browse ..\obj\stm32f4xx_crc.crf --depend ..\obj\stm32f4xx_crc.d)
 I (..\FWLIB\inc\stm32f4xx_crc.h)(0x61F25A2F)
 I (..\USER\stm32f4xx.h)(0x64EF2D12)
 I (..\CORE\core_cm4.h)(0x61F12857)
@@ -268,7 +268,7 @@ I (..\FWLIB\inc\stm32f4xx_tim.h)(0x61F25A3E)
 I (..\FWLIB\inc\stm32f4xx_usart.h)(0x61F7A884)
 I (..\FWLIB\inc\stm32f4xx_wwdg.h)(0x61F25A3F)
 I (..\FWLIB\inc\misc.h)(0x61F25A2D)
-F (..\FWLIB\src\stm32f4xx_cryp.c)(0x61F25A42)(--c99 -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\FWLIB\inc -I ..\SYSTEM -I ..\HARDWARE-I.\RTE\_Target_1-ID:\keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="530" -DSTM32F401xE -D_RTE_ -DUSE_STDPERIPH_DRIVER -DUSE_STM324xG_EVAL -DSTM32F401xx-o ..\obj\stm32f4xx_cryp.o --omf_browse ..\obj\stm32f4xx_cryp.crf --depend ..\obj\stm32f4xx_cryp.d)
+F (..\FWLIB\src\stm32f4xx_cryp.c)(0x61F25A42)(--c99 -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\FWLIB\inc -I ..\SYSTEM -I ..\HARDWARE -I ..\UCOS_CONFIG -I ..\UCOS_CORE -I ..\UCOS_PORT-I.\RTE\_Target_1-ID:\keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="530" -DSTM32F401xE -D_RTE_ -DUSE_STDPERIPH_DRIVER -DUSE_STM324xG_EVAL -DSTM32F401xx-o ..\obj\stm32f4xx_cryp.o --omf_browse ..\obj\stm32f4xx_cryp.crf --depend ..\obj\stm32f4xx_cryp.d)
 I (..\FWLIB\inc\stm32f4xx_cryp.h)(0x61F25A2F)
 I (..\USER\stm32f4xx.h)(0x64EF2D12)
 I (..\CORE\core_cm4.h)(0x61F12857)
@@ -297,7 +297,7 @@ I (..\FWLIB\inc\stm32f4xx_tim.h)(0x61F25A3E)
 I (..\FWLIB\inc\stm32f4xx_usart.h)(0x61F7A884)
 I (..\FWLIB\inc\stm32f4xx_wwdg.h)(0x61F25A3F)
 I (..\FWLIB\inc\misc.h)(0x61F25A2D)
-F (..\FWLIB\src\stm32f4xx_cryp_aes.c)(0x61F25A43)(--c99 -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\FWLIB\inc -I ..\SYSTEM -I ..\HARDWARE-I.\RTE\_Target_1-ID:\keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="530" -DSTM32F401xE -D_RTE_ -DUSE_STDPERIPH_DRIVER -DUSE_STM324xG_EVAL -DSTM32F401xx-o ..\obj\stm32f4xx_cryp_aes.o --omf_browse ..\obj\stm32f4xx_cryp_aes.crf --depend ..\obj\stm32f4xx_cryp_aes.d)
+F (..\FWLIB\src\stm32f4xx_cryp_aes.c)(0x61F25A43)(--c99 -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\FWLIB\inc -I ..\SYSTEM -I ..\HARDWARE -I ..\UCOS_CONFIG -I ..\UCOS_CORE -I ..\UCOS_PORT-I.\RTE\_Target_1-ID:\keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="530" -DSTM32F401xE -D_RTE_ -DUSE_STDPERIPH_DRIVER -DUSE_STM324xG_EVAL -DSTM32F401xx-o ..\obj\stm32f4xx_cryp_aes.o --omf_browse ..\obj\stm32f4xx_cryp_aes.crf --depend ..\obj\stm32f4xx_cryp_aes.d)
 I (..\FWLIB\inc\stm32f4xx_cryp.h)(0x61F25A2F)
 I (..\USER\stm32f4xx.h)(0x64EF2D12)
 I (..\CORE\core_cm4.h)(0x61F12857)
@@ -326,7 +326,7 @@ I (..\FWLIB\inc\stm32f4xx_tim.h)(0x61F25A3E)
 I (..\FWLIB\inc\stm32f4xx_usart.h)(0x61F7A884)
 I (..\FWLIB\inc\stm32f4xx_wwdg.h)(0x61F25A3F)
 I (..\FWLIB\inc\misc.h)(0x61F25A2D)
-F (..\FWLIB\src\stm32f4xx_cryp_des.c)(0x61F25A43)(--c99 -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\FWLIB\inc -I ..\SYSTEM -I ..\HARDWARE-I.\RTE\_Target_1-ID:\keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="530" -DSTM32F401xE -D_RTE_ -DUSE_STDPERIPH_DRIVER -DUSE_STM324xG_EVAL -DSTM32F401xx-o ..\obj\stm32f4xx_cryp_des.o --omf_browse ..\obj\stm32f4xx_cryp_des.crf --depend ..\obj\stm32f4xx_cryp_des.d)
+F (..\FWLIB\src\stm32f4xx_cryp_des.c)(0x61F25A43)(--c99 -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\FWLIB\inc -I ..\SYSTEM -I ..\HARDWARE -I ..\UCOS_CONFIG -I ..\UCOS_CORE -I ..\UCOS_PORT-I.\RTE\_Target_1-ID:\keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="530" -DSTM32F401xE -D_RTE_ -DUSE_STDPERIPH_DRIVER -DUSE_STM324xG_EVAL -DSTM32F401xx-o ..\obj\stm32f4xx_cryp_des.o --omf_browse ..\obj\stm32f4xx_cryp_des.crf --depend ..\obj\stm32f4xx_cryp_des.d)
 I (..\FWLIB\inc\stm32f4xx_cryp.h)(0x61F25A2F)
 I (..\USER\stm32f4xx.h)(0x64EF2D12)
 I (..\CORE\core_cm4.h)(0x61F12857)
@@ -355,7 +355,7 @@ I (..\FWLIB\inc\stm32f4xx_tim.h)(0x61F25A3E)
 I (..\FWLIB\inc\stm32f4xx_usart.h)(0x61F7A884)
 I (..\FWLIB\inc\stm32f4xx_wwdg.h)(0x61F25A3F)
 I (..\FWLIB\inc\misc.h)(0x61F25A2D)
-F (..\FWLIB\src\stm32f4xx_cryp_tdes.c)(0x61F25A44)(--c99 -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\FWLIB\inc -I ..\SYSTEM -I ..\HARDWARE-I.\RTE\_Target_1-ID:\keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="530" -DSTM32F401xE -D_RTE_ -DUSE_STDPERIPH_DRIVER -DUSE_STM324xG_EVAL -DSTM32F401xx-o ..\obj\stm32f4xx_cryp_tdes.o --omf_browse ..\obj\stm32f4xx_cryp_tdes.crf --depend ..\obj\stm32f4xx_cryp_tdes.d)
+F (..\FWLIB\src\stm32f4xx_cryp_tdes.c)(0x61F25A44)(--c99 -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\FWLIB\inc -I ..\SYSTEM -I ..\HARDWARE -I ..\UCOS_CONFIG -I ..\UCOS_CORE -I ..\UCOS_PORT-I.\RTE\_Target_1-ID:\keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="530" -DSTM32F401xE -D_RTE_ -DUSE_STDPERIPH_DRIVER -DUSE_STM324xG_EVAL -DSTM32F401xx-o ..\obj\stm32f4xx_cryp_tdes.o --omf_browse ..\obj\stm32f4xx_cryp_tdes.crf --depend ..\obj\stm32f4xx_cryp_tdes.d)
 I (..\FWLIB\inc\stm32f4xx_cryp.h)(0x61F25A2F)
 I (..\USER\stm32f4xx.h)(0x64EF2D12)
 I (..\CORE\core_cm4.h)(0x61F12857)
@@ -384,7 +384,7 @@ I (..\FWLIB\inc\stm32f4xx_tim.h)(0x61F25A3E)
 I (..\FWLIB\inc\stm32f4xx_usart.h)(0x61F7A884)
 I (..\FWLIB\inc\stm32f4xx_wwdg.h)(0x61F25A3F)
 I (..\FWLIB\inc\misc.h)(0x61F25A2D)
-F (..\FWLIB\src\stm32f4xx_dac.c)(0x61F25A44)(--c99 -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\FWLIB\inc -I ..\SYSTEM -I ..\HARDWARE-I.\RTE\_Target_1-ID:\keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="530" -DSTM32F401xE -D_RTE_ -DUSE_STDPERIPH_DRIVER -DUSE_STM324xG_EVAL -DSTM32F401xx-o ..\obj\stm32f4xx_dac.o --omf_browse ..\obj\stm32f4xx_dac.crf --depend ..\obj\stm32f4xx_dac.d)
+F (..\FWLIB\src\stm32f4xx_dac.c)(0x61F25A44)(--c99 -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\FWLIB\inc -I ..\SYSTEM -I ..\HARDWARE -I ..\UCOS_CONFIG -I ..\UCOS_CORE -I ..\UCOS_PORT-I.\RTE\_Target_1-ID:\keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="530" -DSTM32F401xE -D_RTE_ -DUSE_STDPERIPH_DRIVER -DUSE_STM324xG_EVAL -DSTM32F401xx-o ..\obj\stm32f4xx_dac.o --omf_browse ..\obj\stm32f4xx_dac.crf --depend ..\obj\stm32f4xx_dac.d)
 I (..\FWLIB\inc\stm32f4xx_dac.h)(0x61F25A30)
 I (..\USER\stm32f4xx.h)(0x64EF2D12)
 I (..\CORE\core_cm4.h)(0x61F12857)
@@ -413,7 +413,7 @@ I (..\FWLIB\inc\stm32f4xx_tim.h)(0x61F25A3E)
 I (..\FWLIB\inc\stm32f4xx_usart.h)(0x61F7A884)
 I (..\FWLIB\inc\stm32f4xx_wwdg.h)(0x61F25A3F)
 I (..\FWLIB\inc\misc.h)(0x61F25A2D)
-F (..\FWLIB\src\stm32f4xx_dbgmcu.c)(0x61F25A45)(--c99 -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\FWLIB\inc -I ..\SYSTEM -I ..\HARDWARE-I.\RTE\_Target_1-ID:\keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="530" -DSTM32F401xE -D_RTE_ -DUSE_STDPERIPH_DRIVER -DUSE_STM324xG_EVAL -DSTM32F401xx-o ..\obj\stm32f4xx_dbgmcu.o --omf_browse ..\obj\stm32f4xx_dbgmcu.crf --depend ..\obj\stm32f4xx_dbgmcu.d)
+F (..\FWLIB\src\stm32f4xx_dbgmcu.c)(0x61F25A45)(--c99 -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\FWLIB\inc -I ..\SYSTEM -I ..\HARDWARE -I ..\UCOS_CONFIG -I ..\UCOS_CORE -I ..\UCOS_PORT-I.\RTE\_Target_1-ID:\keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="530" -DSTM32F401xE -D_RTE_ -DUSE_STDPERIPH_DRIVER -DUSE_STM324xG_EVAL -DSTM32F401xx-o ..\obj\stm32f4xx_dbgmcu.o --omf_browse ..\obj\stm32f4xx_dbgmcu.crf --depend ..\obj\stm32f4xx_dbgmcu.d)
 I (..\FWLIB\inc\stm32f4xx_dbgmcu.h)(0x61F25A30)
 I (..\USER\stm32f4xx.h)(0x64EF2D12)
 I (..\CORE\core_cm4.h)(0x61F12857)
@@ -441,7 +441,7 @@ I (..\FWLIB\inc\stm32f4xx_tim.h)(0x61F25A3E)
 I (..\FWLIB\inc\stm32f4xx_usart.h)(0x61F7A884)
 I (..\FWLIB\inc\stm32f4xx_wwdg.h)(0x61F25A3F)
 I (..\FWLIB\inc\misc.h)(0x61F25A2D)
-F (..\FWLIB\src\stm32f4xx_dcmi.c)(0x61F25A45)(--c99 -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\FWLIB\inc -I ..\SYSTEM -I ..\HARDWARE-I.\RTE\_Target_1-ID:\keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="530" -DSTM32F401xE -D_RTE_ -DUSE_STDPERIPH_DRIVER -DUSE_STM324xG_EVAL -DSTM32F401xx-o ..\obj\stm32f4xx_dcmi.o --omf_browse ..\obj\stm32f4xx_dcmi.crf --depend ..\obj\stm32f4xx_dcmi.d)
+F (..\FWLIB\src\stm32f4xx_dcmi.c)(0x61F25A45)(--c99 -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\FWLIB\inc -I ..\SYSTEM -I ..\HARDWARE -I ..\UCOS_CONFIG -I ..\UCOS_CORE -I ..\UCOS_PORT-I.\RTE\_Target_1-ID:\keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="530" -DSTM32F401xE -D_RTE_ -DUSE_STDPERIPH_DRIVER -DUSE_STM324xG_EVAL -DSTM32F401xx-o ..\obj\stm32f4xx_dcmi.o --omf_browse ..\obj\stm32f4xx_dcmi.crf --depend ..\obj\stm32f4xx_dcmi.d)
 I (..\FWLIB\inc\stm32f4xx_dcmi.h)(0x61F25A31)
 I (..\USER\stm32f4xx.h)(0x64EF2D12)
 I (..\CORE\core_cm4.h)(0x61F12857)
@@ -470,7 +470,7 @@ I (..\FWLIB\inc\stm32f4xx_tim.h)(0x61F25A3E)
 I (..\FWLIB\inc\stm32f4xx_usart.h)(0x61F7A884)
 I (..\FWLIB\inc\stm32f4xx_wwdg.h)(0x61F25A3F)
 I (..\FWLIB\inc\misc.h)(0x61F25A2D)
-F (..\FWLIB\src\stm32f4xx_dfsdm.c)(0x61F25A46)(--c99 -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\FWLIB\inc -I ..\SYSTEM -I ..\HARDWARE-I.\RTE\_Target_1-ID:\keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="530" -DSTM32F401xE -D_RTE_ -DUSE_STDPERIPH_DRIVER -DUSE_STM324xG_EVAL -DSTM32F401xx-o ..\obj\stm32f4xx_dfsdm.o --omf_browse ..\obj\stm32f4xx_dfsdm.crf --depend ..\obj\stm32f4xx_dfsdm.d)
+F (..\FWLIB\src\stm32f4xx_dfsdm.c)(0x61F25A46)(--c99 -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\FWLIB\inc -I ..\SYSTEM -I ..\HARDWARE -I ..\UCOS_CONFIG -I ..\UCOS_CORE -I ..\UCOS_PORT-I.\RTE\_Target_1-ID:\keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="530" -DSTM32F401xE -D_RTE_ -DUSE_STDPERIPH_DRIVER -DUSE_STM324xG_EVAL -DSTM32F401xx-o ..\obj\stm32f4xx_dfsdm.o --omf_browse ..\obj\stm32f4xx_dfsdm.crf --depend ..\obj\stm32f4xx_dfsdm.d)
 I (..\FWLIB\inc\stm32f4xx_dfsdm.h)(0x61F25A31)
 I (..\FWLIB\inc\stm32f4xx_rcc.h)(0x61F25A3A)
 I (..\USER\stm32f4xx.h)(0x64EF2D12)
@@ -499,7 +499,7 @@ I (..\FWLIB\inc\stm32f4xx_tim.h)(0x61F25A3E)
 I (..\FWLIB\inc\stm32f4xx_usart.h)(0x61F7A884)
 I (..\FWLIB\inc\stm32f4xx_wwdg.h)(0x61F25A3F)
 I (..\FWLIB\inc\misc.h)(0x61F25A2D)
-F (..\FWLIB\src\stm32f4xx_dma.c)(0x61F25A46)(--c99 -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\FWLIB\inc -I ..\SYSTEM -I ..\HARDWARE-I.\RTE\_Target_1-ID:\keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="530" -DSTM32F401xE -D_RTE_ -DUSE_STDPERIPH_DRIVER -DUSE_STM324xG_EVAL -DSTM32F401xx-o ..\obj\stm32f4xx_dma.o --omf_browse ..\obj\stm32f4xx_dma.crf --depend ..\obj\stm32f4xx_dma.d)
+F (..\FWLIB\src\stm32f4xx_dma.c)(0x61F25A46)(--c99 -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\FWLIB\inc -I ..\SYSTEM -I ..\HARDWARE -I ..\UCOS_CONFIG -I ..\UCOS_CORE -I ..\UCOS_PORT-I.\RTE\_Target_1-ID:\keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="530" -DSTM32F401xE -D_RTE_ -DUSE_STDPERIPH_DRIVER -DUSE_STM324xG_EVAL -DSTM32F401xx-o ..\obj\stm32f4xx_dma.o --omf_browse ..\obj\stm32f4xx_dma.crf --depend ..\obj\stm32f4xx_dma.d)
 I (..\FWLIB\inc\stm32f4xx_dma.h)(0x61F25A31)
 I (..\USER\stm32f4xx.h)(0x64EF2D12)
 I (..\CORE\core_cm4.h)(0x61F12857)
@@ -527,7 +527,7 @@ I (..\FWLIB\inc\stm32f4xx_tim.h)(0x61F25A3E)
 I (..\FWLIB\inc\stm32f4xx_usart.h)(0x61F7A884)
 I (..\FWLIB\inc\stm32f4xx_wwdg.h)(0x61F25A3F)
 I (..\FWLIB\inc\misc.h)(0x61F25A2D)
-F (..\FWLIB\src\stm32f4xx_dma2d.c)(0x62023421)(--c99 -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\FWLIB\inc -I ..\SYSTEM -I ..\HARDWARE-I.\RTE\_Target_1-ID:\keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="530" -DSTM32F401xE -D_RTE_ -DUSE_STDPERIPH_DRIVER -DUSE_STM324xG_EVAL -DSTM32F401xx-o ..\obj\stm32f4xx_dma2d.o --omf_browse ..\obj\stm32f4xx_dma2d.crf --depend ..\obj\stm32f4xx_dma2d.d)
+F (..\FWLIB\src\stm32f4xx_dma2d.c)(0x62023421)(--c99 -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\FWLIB\inc -I ..\SYSTEM -I ..\HARDWARE -I ..\UCOS_CONFIG -I ..\UCOS_CORE -I ..\UCOS_PORT-I.\RTE\_Target_1-ID:\keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="530" -DSTM32F401xE -D_RTE_ -DUSE_STDPERIPH_DRIVER -DUSE_STM324xG_EVAL -DSTM32F401xx-o ..\obj\stm32f4xx_dma2d.o --omf_browse ..\obj\stm32f4xx_dma2d.crf --depend ..\obj\stm32f4xx_dma2d.d)
 I (..\FWLIB\inc\stm32f4xx_dma2d.h)(0x61F25A32)
 I (..\USER\stm32f4xx.h)(0x64EF2D12)
 I (..\CORE\core_cm4.h)(0x61F12857)
@@ -556,7 +556,7 @@ I (..\FWLIB\inc\stm32f4xx_tim.h)(0x61F25A3E)
 I (..\FWLIB\inc\stm32f4xx_usart.h)(0x61F7A884)
 I (..\FWLIB\inc\stm32f4xx_wwdg.h)(0x61F25A3F)
 I (..\FWLIB\inc\misc.h)(0x61F25A2D)
-F (..\FWLIB\src\stm32f4xx_dsi.c)(0x61F25A47)(--c99 -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\FWLIB\inc -I ..\SYSTEM -I ..\HARDWARE-I.\RTE\_Target_1-ID:\keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="530" -DSTM32F401xE -D_RTE_ -DUSE_STDPERIPH_DRIVER -DUSE_STM324xG_EVAL -DSTM32F401xx-o ..\obj\stm32f4xx_dsi.o --omf_browse ..\obj\stm32f4xx_dsi.crf --depend ..\obj\stm32f4xx_dsi.d)
+F (..\FWLIB\src\stm32f4xx_dsi.c)(0x61F25A47)(--c99 -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\FWLIB\inc -I ..\SYSTEM -I ..\HARDWARE -I ..\UCOS_CONFIG -I ..\UCOS_CORE -I ..\UCOS_PORT-I.\RTE\_Target_1-ID:\keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="530" -DSTM32F401xE -D_RTE_ -DUSE_STDPERIPH_DRIVER -DUSE_STM324xG_EVAL -DSTM32F401xx-o ..\obj\stm32f4xx_dsi.o --omf_browse ..\obj\stm32f4xx_dsi.crf --depend ..\obj\stm32f4xx_dsi.d)
 I (..\FWLIB\inc\stm32f4xx_dsi.h)(0x61F25A32)
 I (..\USER\stm32f4xx.h)(0x64EF2D12)
 I (..\CORE\core_cm4.h)(0x61F12857)
@@ -585,7 +585,7 @@ I (..\FWLIB\inc\stm32f4xx_tim.h)(0x61F25A3E)
 I (..\FWLIB\inc\stm32f4xx_usart.h)(0x61F7A884)
 I (..\FWLIB\inc\stm32f4xx_wwdg.h)(0x61F25A3F)
 I (..\FWLIB\inc\misc.h)(0x61F25A2D)
-F (..\FWLIB\src\stm32f4xx_exti.c)(0x61F25A48)(--c99 -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\FWLIB\inc -I ..\SYSTEM -I ..\HARDWARE-I.\RTE\_Target_1-ID:\keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="530" -DSTM32F401xE -D_RTE_ -DUSE_STDPERIPH_DRIVER -DUSE_STM324xG_EVAL -DSTM32F401xx-o ..\obj\stm32f4xx_exti.o --omf_browse ..\obj\stm32f4xx_exti.crf --depend ..\obj\stm32f4xx_exti.d)
+F (..\FWLIB\src\stm32f4xx_exti.c)(0x61F25A48)(--c99 -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\FWLIB\inc -I ..\SYSTEM -I ..\HARDWARE -I ..\UCOS_CONFIG -I ..\UCOS_CORE -I ..\UCOS_PORT-I.\RTE\_Target_1-ID:\keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="530" -DSTM32F401xE -D_RTE_ -DUSE_STDPERIPH_DRIVER -DUSE_STM324xG_EVAL -DSTM32F401xx-o ..\obj\stm32f4xx_exti.o --omf_browse ..\obj\stm32f4xx_exti.crf --depend ..\obj\stm32f4xx_exti.d)
 I (..\FWLIB\inc\stm32f4xx_exti.h)(0x61F25A33)
 I (..\USER\stm32f4xx.h)(0x64EF2D12)
 I (..\CORE\core_cm4.h)(0x61F12857)
@@ -613,7 +613,7 @@ I (..\FWLIB\inc\stm32f4xx_tim.h)(0x61F25A3E)
 I (..\FWLIB\inc\stm32f4xx_usart.h)(0x61F7A884)
 I (..\FWLIB\inc\stm32f4xx_wwdg.h)(0x61F25A3F)
 I (..\FWLIB\inc\misc.h)(0x61F25A2D)
-F (..\FWLIB\src\stm32f4xx_flash.c)(0x61F25A48)(--c99 -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\FWLIB\inc -I ..\SYSTEM -I ..\HARDWARE-I.\RTE\_Target_1-ID:\keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="530" -DSTM32F401xE -D_RTE_ -DUSE_STDPERIPH_DRIVER -DUSE_STM324xG_EVAL -DSTM32F401xx-o ..\obj\stm32f4xx_flash.o --omf_browse ..\obj\stm32f4xx_flash.crf --depend ..\obj\stm32f4xx_flash.d)
+F (..\FWLIB\src\stm32f4xx_flash.c)(0x61F25A48)(--c99 -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\FWLIB\inc -I ..\SYSTEM -I ..\HARDWARE -I ..\UCOS_CONFIG -I ..\UCOS_CORE -I ..\UCOS_PORT-I.\RTE\_Target_1-ID:\keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="530" -DSTM32F401xE -D_RTE_ -DUSE_STDPERIPH_DRIVER -DUSE_STM324xG_EVAL -DSTM32F401xx-o ..\obj\stm32f4xx_flash.o --omf_browse ..\obj\stm32f4xx_flash.crf --depend ..\obj\stm32f4xx_flash.d)
 I (..\FWLIB\inc\stm32f4xx_flash.h)(0x61F25A33)
 I (..\USER\stm32f4xx.h)(0x64EF2D12)
 I (..\CORE\core_cm4.h)(0x61F12857)
@@ -641,7 +641,7 @@ I (..\FWLIB\inc\stm32f4xx_tim.h)(0x61F25A3E)
 I (..\FWLIB\inc\stm32f4xx_usart.h)(0x61F7A884)
 I (..\FWLIB\inc\stm32f4xx_wwdg.h)(0x61F25A3F)
 I (..\FWLIB\inc\misc.h)(0x61F25A2D)
-F (..\FWLIB\src\stm32f4xx_flash_ramfunc.c)(0x61F25A49)(--c99 -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\FWLIB\inc -I ..\SYSTEM -I ..\HARDWARE-I.\RTE\_Target_1-ID:\keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="530" -DSTM32F401xE -D_RTE_ -DUSE_STDPERIPH_DRIVER -DUSE_STM324xG_EVAL -DSTM32F401xx-o ..\obj\stm32f4xx_flash_ramfunc.o --omf_browse ..\obj\stm32f4xx_flash_ramfunc.crf --depend ..\obj\stm32f4xx_flash_ramfunc.d)
+F (..\FWLIB\src\stm32f4xx_flash_ramfunc.c)(0x61F25A49)(--c99 -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\FWLIB\inc -I ..\SYSTEM -I ..\HARDWARE -I ..\UCOS_CONFIG -I ..\UCOS_CORE -I ..\UCOS_PORT-I.\RTE\_Target_1-ID:\keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="530" -DSTM32F401xE -D_RTE_ -DUSE_STDPERIPH_DRIVER -DUSE_STM324xG_EVAL -DSTM32F401xx-o ..\obj\stm32f4xx_flash_ramfunc.o --omf_browse ..\obj\stm32f4xx_flash_ramfunc.crf --depend ..\obj\stm32f4xx_flash_ramfunc.d)
 I (..\FWLIB\inc\stm32f4xx_flash_ramfunc.h)(0x61F25A34)
 I (..\USER\stm32f4xx.h)(0x64EF2D12)
 I (..\CORE\core_cm4.h)(0x61F12857)
@@ -670,7 +670,7 @@ I (..\FWLIB\inc\stm32f4xx_tim.h)(0x61F25A3E)
 I (..\FWLIB\inc\stm32f4xx_usart.h)(0x61F7A884)
 I (..\FWLIB\inc\stm32f4xx_wwdg.h)(0x61F25A3F)
 I (..\FWLIB\inc\misc.h)(0x61F25A2D)
-F (..\FWLIB\src\stm32f4xx_fmpi2c.c)(0x62028565)(--c99 -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\FWLIB\inc -I ..\SYSTEM -I ..\HARDWARE-I.\RTE\_Target_1-ID:\keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="530" -DSTM32F401xE -D_RTE_ -DUSE_STDPERIPH_DRIVER -DUSE_STM324xG_EVAL -DSTM32F401xx-o ..\obj\stm32f4xx_fmpi2c.o --omf_browse ..\obj\stm32f4xx_fmpi2c.crf --depend ..\obj\stm32f4xx_fmpi2c.d)
+F (..\FWLIB\src\stm32f4xx_fmpi2c.c)(0x62028565)(--c99 -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\FWLIB\inc -I ..\SYSTEM -I ..\HARDWARE -I ..\UCOS_CONFIG -I ..\UCOS_CORE -I ..\UCOS_PORT-I.\RTE\_Target_1-ID:\keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="530" -DSTM32F401xE -D_RTE_ -DUSE_STDPERIPH_DRIVER -DUSE_STM324xG_EVAL -DSTM32F401xx-o ..\obj\stm32f4xx_fmpi2c.o --omf_browse ..\obj\stm32f4xx_fmpi2c.crf --depend ..\obj\stm32f4xx_fmpi2c.d)
 I (..\FWLIB\inc\stm32f4xx_fmpi2c.h)(0x61F25A35)
 I (..\USER\stm32f4xx.h)(0x64EF2D12)
 I (..\CORE\core_cm4.h)(0x61F12857)
@@ -699,7 +699,7 @@ I (..\FWLIB\inc\stm32f4xx_tim.h)(0x61F25A3E)
 I (..\FWLIB\inc\stm32f4xx_usart.h)(0x61F7A884)
 I (..\FWLIB\inc\stm32f4xx_wwdg.h)(0x61F25A3F)
 I (..\FWLIB\inc\misc.h)(0x61F25A2D)
-F (..\FWLIB\src\stm32f4xx_gpio.c)(0x61F2A912)(--c99 -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\FWLIB\inc -I ..\SYSTEM -I ..\HARDWARE-I.\RTE\_Target_1-ID:\keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="530" -DSTM32F401xE -D_RTE_ -DUSE_STDPERIPH_DRIVER -DUSE_STM324xG_EVAL -DSTM32F401xx-o ..\obj\stm32f4xx_gpio.o --omf_browse ..\obj\stm32f4xx_gpio.crf --depend ..\obj\stm32f4xx_gpio.d)
+F (..\FWLIB\src\stm32f4xx_gpio.c)(0x61F2A912)(--c99 -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\FWLIB\inc -I ..\SYSTEM -I ..\HARDWARE -I ..\UCOS_CONFIG -I ..\UCOS_CORE -I ..\UCOS_PORT-I.\RTE\_Target_1-ID:\keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="530" -DSTM32F401xE -D_RTE_ -DUSE_STDPERIPH_DRIVER -DUSE_STM324xG_EVAL -DSTM32F401xx-o ..\obj\stm32f4xx_gpio.o --omf_browse ..\obj\stm32f4xx_gpio.crf --depend ..\obj\stm32f4xx_gpio.d)
 I (..\FWLIB\inc\stm32f4xx_gpio.h)(0x61F25A36)
 I (..\USER\stm32f4xx.h)(0x64EF2D12)
 I (..\CORE\core_cm4.h)(0x61F12857)
@@ -727,7 +727,7 @@ I (..\FWLIB\inc\stm32f4xx_tim.h)(0x61F25A3E)
 I (..\FWLIB\inc\stm32f4xx_usart.h)(0x61F7A884)
 I (..\FWLIB\inc\stm32f4xx_wwdg.h)(0x61F25A3F)
 I (..\FWLIB\inc\misc.h)(0x61F25A2D)
-F (..\FWLIB\src\stm32f4xx_hash.c)(0x61F25A4C)(--c99 -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\FWLIB\inc -I ..\SYSTEM -I ..\HARDWARE-I.\RTE\_Target_1-ID:\keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="530" -DSTM32F401xE -D_RTE_ -DUSE_STDPERIPH_DRIVER -DUSE_STM324xG_EVAL -DSTM32F401xx-o ..\obj\stm32f4xx_hash.o --omf_browse ..\obj\stm32f4xx_hash.crf --depend ..\obj\stm32f4xx_hash.d)
+F (..\FWLIB\src\stm32f4xx_hash.c)(0x61F25A4C)(--c99 -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\FWLIB\inc -I ..\SYSTEM -I ..\HARDWARE -I ..\UCOS_CONFIG -I ..\UCOS_CORE -I ..\UCOS_PORT-I.\RTE\_Target_1-ID:\keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="530" -DSTM32F401xE -D_RTE_ -DUSE_STDPERIPH_DRIVER -DUSE_STM324xG_EVAL -DSTM32F401xx-o ..\obj\stm32f4xx_hash.o --omf_browse ..\obj\stm32f4xx_hash.crf --depend ..\obj\stm32f4xx_hash.d)
 I (..\FWLIB\inc\stm32f4xx_hash.h)(0x61F25A37)
 I (..\USER\stm32f4xx.h)(0x64EF2D12)
 I (..\CORE\core_cm4.h)(0x61F12857)
@@ -756,7 +756,7 @@ I (..\FWLIB\inc\stm32f4xx_tim.h)(0x61F25A3E)
 I (..\FWLIB\inc\stm32f4xx_usart.h)(0x61F7A884)
 I (..\FWLIB\inc\stm32f4xx_wwdg.h)(0x61F25A3F)
 I (..\FWLIB\inc\misc.h)(0x61F25A2D)
-F (..\FWLIB\src\stm32f4xx_hash_md5.c)(0x61F25A4C)(--c99 -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\FWLIB\inc -I ..\SYSTEM -I ..\HARDWARE-I.\RTE\_Target_1-ID:\keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="530" -DSTM32F401xE -D_RTE_ -DUSE_STDPERIPH_DRIVER -DUSE_STM324xG_EVAL -DSTM32F401xx-o ..\obj\stm32f4xx_hash_md5.o --omf_browse ..\obj\stm32f4xx_hash_md5.crf --depend ..\obj\stm32f4xx_hash_md5.d)
+F (..\FWLIB\src\stm32f4xx_hash_md5.c)(0x61F25A4C)(--c99 -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\FWLIB\inc -I ..\SYSTEM -I ..\HARDWARE -I ..\UCOS_CONFIG -I ..\UCOS_CORE -I ..\UCOS_PORT-I.\RTE\_Target_1-ID:\keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="530" -DSTM32F401xE -D_RTE_ -DUSE_STDPERIPH_DRIVER -DUSE_STM324xG_EVAL -DSTM32F401xx-o ..\obj\stm32f4xx_hash_md5.o --omf_browse ..\obj\stm32f4xx_hash_md5.crf --depend ..\obj\stm32f4xx_hash_md5.d)
 I (..\FWLIB\inc\stm32f4xx_hash.h)(0x61F25A37)
 I (..\USER\stm32f4xx.h)(0x64EF2D12)
 I (..\CORE\core_cm4.h)(0x61F12857)
@@ -785,7 +785,7 @@ I (..\FWLIB\inc\stm32f4xx_tim.h)(0x61F25A3E)
 I (..\FWLIB\inc\stm32f4xx_usart.h)(0x61F7A884)
 I (..\FWLIB\inc\stm32f4xx_wwdg.h)(0x61F25A3F)
 I (..\FWLIB\inc\misc.h)(0x61F25A2D)
-F (..\FWLIB\src\stm32f4xx_hash_sha1.c)(0x61F25A4D)(--c99 -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\FWLIB\inc -I ..\SYSTEM -I ..\HARDWARE-I.\RTE\_Target_1-ID:\keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="530" -DSTM32F401xE -D_RTE_ -DUSE_STDPERIPH_DRIVER -DUSE_STM324xG_EVAL -DSTM32F401xx-o ..\obj\stm32f4xx_hash_sha1.o --omf_browse ..\obj\stm32f4xx_hash_sha1.crf --depend ..\obj\stm32f4xx_hash_sha1.d)
+F (..\FWLIB\src\stm32f4xx_hash_sha1.c)(0x61F25A4D)(--c99 -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\FWLIB\inc -I ..\SYSTEM -I ..\HARDWARE -I ..\UCOS_CONFIG -I ..\UCOS_CORE -I ..\UCOS_PORT-I.\RTE\_Target_1-ID:\keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="530" -DSTM32F401xE -D_RTE_ -DUSE_STDPERIPH_DRIVER -DUSE_STM324xG_EVAL -DSTM32F401xx-o ..\obj\stm32f4xx_hash_sha1.o --omf_browse ..\obj\stm32f4xx_hash_sha1.crf --depend ..\obj\stm32f4xx_hash_sha1.d)
 I (..\FWLIB\inc\stm32f4xx_hash.h)(0x61F25A37)
 I (..\USER\stm32f4xx.h)(0x64EF2D12)
 I (..\CORE\core_cm4.h)(0x61F12857)
@@ -814,7 +814,7 @@ I (..\FWLIB\inc\stm32f4xx_tim.h)(0x61F25A3E)
 I (..\FWLIB\inc\stm32f4xx_usart.h)(0x61F7A884)
 I (..\FWLIB\inc\stm32f4xx_wwdg.h)(0x61F25A3F)
 I (..\FWLIB\inc\misc.h)(0x61F25A2D)
-F (..\FWLIB\src\stm32f4xx_i2c.c)(0x61F40E33)(--c99 -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\FWLIB\inc -I ..\SYSTEM -I ..\HARDWARE-I.\RTE\_Target_1-ID:\keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="530" -DSTM32F401xE -D_RTE_ -DUSE_STDPERIPH_DRIVER -DUSE_STM324xG_EVAL -DSTM32F401xx-o ..\obj\stm32f4xx_i2c.o --omf_browse ..\obj\stm32f4xx_i2c.crf --depend ..\obj\stm32f4xx_i2c.d)
+F (..\FWLIB\src\stm32f4xx_i2c.c)(0x61F40E33)(--c99 -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\FWLIB\inc -I ..\SYSTEM -I ..\HARDWARE -I ..\UCOS_CONFIG -I ..\UCOS_CORE -I ..\UCOS_PORT-I.\RTE\_Target_1-ID:\keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="530" -DSTM32F401xE -D_RTE_ -DUSE_STDPERIPH_DRIVER -DUSE_STM324xG_EVAL -DSTM32F401xx-o ..\obj\stm32f4xx_i2c.o --omf_browse ..\obj\stm32f4xx_i2c.crf --depend ..\obj\stm32f4xx_i2c.d)
 I (..\FWLIB\inc\stm32f4xx_i2c.h)(0x61F25A37)
 I (..\USER\stm32f4xx.h)(0x64EF2D12)
 I (..\CORE\core_cm4.h)(0x61F12857)
@@ -842,7 +842,7 @@ I (..\FWLIB\inc\stm32f4xx_tim.h)(0x61F25A3E)
 I (..\FWLIB\inc\stm32f4xx_usart.h)(0x61F7A884)
 I (..\FWLIB\inc\stm32f4xx_wwdg.h)(0x61F25A3F)
 I (..\FWLIB\inc\misc.h)(0x61F25A2D)
-F (..\FWLIB\src\stm32f4xx_iwdg.c)(0x61F25A4E)(--c99 -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\FWLIB\inc -I ..\SYSTEM -I ..\HARDWARE-I.\RTE\_Target_1-ID:\keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="530" -DSTM32F401xE -D_RTE_ -DUSE_STDPERIPH_DRIVER -DUSE_STM324xG_EVAL -DSTM32F401xx-o ..\obj\stm32f4xx_iwdg.o --omf_browse ..\obj\stm32f4xx_iwdg.crf --depend ..\obj\stm32f4xx_iwdg.d)
+F (..\FWLIB\src\stm32f4xx_iwdg.c)(0x61F25A4E)(--c99 -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\FWLIB\inc -I ..\SYSTEM -I ..\HARDWARE -I ..\UCOS_CONFIG -I ..\UCOS_CORE -I ..\UCOS_PORT-I.\RTE\_Target_1-ID:\keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="530" -DSTM32F401xE -D_RTE_ -DUSE_STDPERIPH_DRIVER -DUSE_STM324xG_EVAL -DSTM32F401xx-o ..\obj\stm32f4xx_iwdg.o --omf_browse ..\obj\stm32f4xx_iwdg.crf --depend ..\obj\stm32f4xx_iwdg.d)
 I (..\FWLIB\inc\stm32f4xx_iwdg.h)(0x61F25A38)
 I (..\USER\stm32f4xx.h)(0x64EF2D12)
 I (..\CORE\core_cm4.h)(0x61F12857)
@@ -870,7 +870,7 @@ I (..\FWLIB\inc\stm32f4xx_tim.h)(0x61F25A3E)
 I (..\FWLIB\inc\stm32f4xx_usart.h)(0x61F7A884)
 I (..\FWLIB\inc\stm32f4xx_wwdg.h)(0x61F25A3F)
 I (..\FWLIB\inc\misc.h)(0x61F25A2D)
-F (..\FWLIB\src\stm32f4xx_lptim.c)(0x61F25A4E)(--c99 -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\FWLIB\inc -I ..\SYSTEM -I ..\HARDWARE-I.\RTE\_Target_1-ID:\keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="530" -DSTM32F401xE -D_RTE_ -DUSE_STDPERIPH_DRIVER -DUSE_STM324xG_EVAL -DSTM32F401xx-o ..\obj\stm32f4xx_lptim.o --omf_browse ..\obj\stm32f4xx_lptim.crf --depend ..\obj\stm32f4xx_lptim.d)
+F (..\FWLIB\src\stm32f4xx_lptim.c)(0x61F25A4E)(--c99 -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\FWLIB\inc -I ..\SYSTEM -I ..\HARDWARE -I ..\UCOS_CONFIG -I ..\UCOS_CORE -I ..\UCOS_PORT-I.\RTE\_Target_1-ID:\keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="530" -DSTM32F401xE -D_RTE_ -DUSE_STDPERIPH_DRIVER -DUSE_STM324xG_EVAL -DSTM32F401xx-o ..\obj\stm32f4xx_lptim.o --omf_browse ..\obj\stm32f4xx_lptim.crf --depend ..\obj\stm32f4xx_lptim.d)
 I (..\FWLIB\inc\stm32f4xx_lptim.h)(0x61F25A38)
 I (..\USER\stm32f4xx.h)(0x64EF2D12)
 I (..\CORE\core_cm4.h)(0x61F12857)
@@ -899,7 +899,7 @@ I (..\FWLIB\inc\stm32f4xx_tim.h)(0x61F25A3E)
 I (..\FWLIB\inc\stm32f4xx_usart.h)(0x61F7A884)
 I (..\FWLIB\inc\stm32f4xx_wwdg.h)(0x61F25A3F)
 I (..\FWLIB\inc\misc.h)(0x61F25A2D)
-F (..\FWLIB\src\stm32f4xx_ltdc.c)(0x61F25A4F)(--c99 -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\FWLIB\inc -I ..\SYSTEM -I ..\HARDWARE-I.\RTE\_Target_1-ID:\keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="530" -DSTM32F401xE -D_RTE_ -DUSE_STDPERIPH_DRIVER -DUSE_STM324xG_EVAL -DSTM32F401xx-o ..\obj\stm32f4xx_ltdc.o --omf_browse ..\obj\stm32f4xx_ltdc.crf --depend ..\obj\stm32f4xx_ltdc.d)
+F (..\FWLIB\src\stm32f4xx_ltdc.c)(0x61F25A4F)(--c99 -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\FWLIB\inc -I ..\SYSTEM -I ..\HARDWARE -I ..\UCOS_CONFIG -I ..\UCOS_CORE -I ..\UCOS_PORT-I.\RTE\_Target_1-ID:\keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="530" -DSTM32F401xE -D_RTE_ -DUSE_STDPERIPH_DRIVER -DUSE_STM324xG_EVAL -DSTM32F401xx-o ..\obj\stm32f4xx_ltdc.o --omf_browse ..\obj\stm32f4xx_ltdc.crf --depend ..\obj\stm32f4xx_ltdc.d)
 I (..\FWLIB\inc\stm32f4xx_ltdc.h)(0x61F25A39)
 I (..\USER\stm32f4xx.h)(0x64EF2D12)
 I (..\CORE\core_cm4.h)(0x61F12857)
@@ -928,7 +928,7 @@ I (..\FWLIB\inc\stm32f4xx_tim.h)(0x61F25A3E)
 I (..\FWLIB\inc\stm32f4xx_usart.h)(0x61F7A884)
 I (..\FWLIB\inc\stm32f4xx_wwdg.h)(0x61F25A3F)
 I (..\FWLIB\inc\misc.h)(0x61F25A2D)
-F (..\FWLIB\src\stm32f4xx_pwr.c)(0x61F25A4F)(--c99 -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\FWLIB\inc -I ..\SYSTEM -I ..\HARDWARE-I.\RTE\_Target_1-ID:\keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="530" -DSTM32F401xE -D_RTE_ -DUSE_STDPERIPH_DRIVER -DUSE_STM324xG_EVAL -DSTM32F401xx-o ..\obj\stm32f4xx_pwr.o --omf_browse ..\obj\stm32f4xx_pwr.crf --depend ..\obj\stm32f4xx_pwr.d)
+F (..\FWLIB\src\stm32f4xx_pwr.c)(0x61F25A4F)(--c99 -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\FWLIB\inc -I ..\SYSTEM -I ..\HARDWARE -I ..\UCOS_CONFIG -I ..\UCOS_CORE -I ..\UCOS_PORT-I.\RTE\_Target_1-ID:\keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="530" -DSTM32F401xE -D_RTE_ -DUSE_STDPERIPH_DRIVER -DUSE_STM324xG_EVAL -DSTM32F401xx-o ..\obj\stm32f4xx_pwr.o --omf_browse ..\obj\stm32f4xx_pwr.crf --depend ..\obj\stm32f4xx_pwr.d)
 I (..\FWLIB\inc\stm32f4xx_pwr.h)(0x61F25A39)
 I (..\USER\stm32f4xx.h)(0x64EF2D12)
 I (..\CORE\core_cm4.h)(0x61F12857)
@@ -956,7 +956,7 @@ I (..\FWLIB\inc\stm32f4xx_tim.h)(0x61F25A3E)
 I (..\FWLIB\inc\stm32f4xx_usart.h)(0x61F7A884)
 I (..\FWLIB\inc\stm32f4xx_wwdg.h)(0x61F25A3F)
 I (..\FWLIB\inc\misc.h)(0x61F25A2D)
-F (..\FWLIB\src\stm32f4xx_qspi.c)(0x61F25A50)(--c99 -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\FWLIB\inc -I ..\SYSTEM -I ..\HARDWARE-I.\RTE\_Target_1-ID:\keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="530" -DSTM32F401xE -D_RTE_ -DUSE_STDPERIPH_DRIVER -DUSE_STM324xG_EVAL -DSTM32F401xx-o ..\obj\stm32f4xx_qspi.o --omf_browse ..\obj\stm32f4xx_qspi.crf --depend ..\obj\stm32f4xx_qspi.d)
+F (..\FWLIB\src\stm32f4xx_qspi.c)(0x61F25A50)(--c99 -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\FWLIB\inc -I ..\SYSTEM -I ..\HARDWARE -I ..\UCOS_CONFIG -I ..\UCOS_CORE -I ..\UCOS_PORT-I.\RTE\_Target_1-ID:\keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="530" -DSTM32F401xE -D_RTE_ -DUSE_STDPERIPH_DRIVER -DUSE_STM324xG_EVAL -DSTM32F401xx-o ..\obj\stm32f4xx_qspi.o --omf_browse ..\obj\stm32f4xx_qspi.crf --depend ..\obj\stm32f4xx_qspi.d)
 I (..\FWLIB\inc\stm32f4xx_qspi.h)(0x61F25A3A)
 I (..\USER\stm32f4xx.h)(0x64EF2D12)
 I (..\CORE\core_cm4.h)(0x61F12857)
@@ -985,7 +985,7 @@ I (..\FWLIB\inc\stm32f4xx_tim.h)(0x61F25A3E)
 I (..\FWLIB\inc\stm32f4xx_usart.h)(0x61F7A884)
 I (..\FWLIB\inc\stm32f4xx_wwdg.h)(0x61F25A3F)
 I (..\FWLIB\inc\misc.h)(0x61F25A2D)
-F (..\FWLIB\src\stm32f4xx_rcc.c)(0x61F25A51)(--c99 -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\FWLIB\inc -I ..\SYSTEM -I ..\HARDWARE-I.\RTE\_Target_1-ID:\keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="530" -DSTM32F401xE -D_RTE_ -DUSE_STDPERIPH_DRIVER -DUSE_STM324xG_EVAL -DSTM32F401xx-o ..\obj\stm32f4xx_rcc.o --omf_browse ..\obj\stm32f4xx_rcc.crf --depend ..\obj\stm32f4xx_rcc.d)
+F (..\FWLIB\src\stm32f4xx_rcc.c)(0x61F25A51)(--c99 -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\FWLIB\inc -I ..\SYSTEM -I ..\HARDWARE -I ..\UCOS_CONFIG -I ..\UCOS_CORE -I ..\UCOS_PORT-I.\RTE\_Target_1-ID:\keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="530" -DSTM32F401xE -D_RTE_ -DUSE_STDPERIPH_DRIVER -DUSE_STM324xG_EVAL -DSTM32F401xx-o ..\obj\stm32f4xx_rcc.o --omf_browse ..\obj\stm32f4xx_rcc.crf --depend ..\obj\stm32f4xx_rcc.d)
 I (..\FWLIB\inc\stm32f4xx_rcc.h)(0x61F25A3A)
 I (..\USER\stm32f4xx.h)(0x64EF2D12)
 I (..\CORE\core_cm4.h)(0x61F12857)
@@ -1013,7 +1013,7 @@ I (..\FWLIB\inc\stm32f4xx_tim.h)(0x61F25A3E)
 I (..\FWLIB\inc\stm32f4xx_usart.h)(0x61F7A884)
 I (..\FWLIB\inc\stm32f4xx_wwdg.h)(0x61F25A3F)
 I (..\FWLIB\inc\misc.h)(0x61F25A2D)
-F (..\FWLIB\src\stm32f4xx_rng.c)(0x61F25A51)(--c99 -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\FWLIB\inc -I ..\SYSTEM -I ..\HARDWARE-I.\RTE\_Target_1-ID:\keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="530" -DSTM32F401xE -D_RTE_ -DUSE_STDPERIPH_DRIVER -DUSE_STM324xG_EVAL -DSTM32F401xx-o ..\obj\stm32f4xx_rng.o --omf_browse ..\obj\stm32f4xx_rng.crf --depend ..\obj\stm32f4xx_rng.d)
+F (..\FWLIB\src\stm32f4xx_rng.c)(0x61F25A51)(--c99 -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\FWLIB\inc -I ..\SYSTEM -I ..\HARDWARE -I ..\UCOS_CONFIG -I ..\UCOS_CORE -I ..\UCOS_PORT-I.\RTE\_Target_1-ID:\keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="530" -DSTM32F401xE -D_RTE_ -DUSE_STDPERIPH_DRIVER -DUSE_STM324xG_EVAL -DSTM32F401xx-o ..\obj\stm32f4xx_rng.o --omf_browse ..\obj\stm32f4xx_rng.crf --depend ..\obj\stm32f4xx_rng.d)
 I (..\FWLIB\inc\stm32f4xx_rng.h)(0x61F25A3A)
 I (..\USER\stm32f4xx.h)(0x64EF2D12)
 I (..\CORE\core_cm4.h)(0x61F12857)
@@ -1042,7 +1042,7 @@ I (..\FWLIB\inc\stm32f4xx_tim.h)(0x61F25A3E)
 I (..\FWLIB\inc\stm32f4xx_usart.h)(0x61F7A884)
 I (..\FWLIB\inc\stm32f4xx_wwdg.h)(0x61F25A3F)
 I (..\FWLIB\inc\misc.h)(0x61F25A2D)
-F (..\FWLIB\src\stm32f4xx_rtc.c)(0x61F25A52)(--c99 -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\FWLIB\inc -I ..\SYSTEM -I ..\HARDWARE-I.\RTE\_Target_1-ID:\keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="530" -DSTM32F401xE -D_RTE_ -DUSE_STDPERIPH_DRIVER -DUSE_STM324xG_EVAL -DSTM32F401xx-o ..\obj\stm32f4xx_rtc.o --omf_browse ..\obj\stm32f4xx_rtc.crf --depend ..\obj\stm32f4xx_rtc.d)
+F (..\FWLIB\src\stm32f4xx_rtc.c)(0x61F25A52)(--c99 -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\FWLIB\inc -I ..\SYSTEM -I ..\HARDWARE -I ..\UCOS_CONFIG -I ..\UCOS_CORE -I ..\UCOS_PORT-I.\RTE\_Target_1-ID:\keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="530" -DSTM32F401xE -D_RTE_ -DUSE_STDPERIPH_DRIVER -DUSE_STM324xG_EVAL -DSTM32F401xx-o ..\obj\stm32f4xx_rtc.o --omf_browse ..\obj\stm32f4xx_rtc.crf --depend ..\obj\stm32f4xx_rtc.d)
 I (..\FWLIB\inc\stm32f4xx_rtc.h)(0x61F25A3B)
 I (..\USER\stm32f4xx.h)(0x64EF2D12)
 I (..\CORE\core_cm4.h)(0x61F12857)
@@ -1070,7 +1070,7 @@ I (..\FWLIB\inc\stm32f4xx_tim.h)(0x61F25A3E)
 I (..\FWLIB\inc\stm32f4xx_usart.h)(0x61F7A884)
 I (..\FWLIB\inc\stm32f4xx_wwdg.h)(0x61F25A3F)
 I (..\FWLIB\inc\misc.h)(0x61F25A2D)
-F (..\FWLIB\src\stm32f4xx_sai.c)(0x61F25A53)(--c99 -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\FWLIB\inc -I ..\SYSTEM -I ..\HARDWARE-I.\RTE\_Target_1-ID:\keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="530" -DSTM32F401xE -D_RTE_ -DUSE_STDPERIPH_DRIVER -DUSE_STM324xG_EVAL -DSTM32F401xx-o ..\obj\stm32f4xx_sai.o --omf_browse ..\obj\stm32f4xx_sai.crf --depend ..\obj\stm32f4xx_sai.d)
+F (..\FWLIB\src\stm32f4xx_sai.c)(0x61F25A53)(--c99 -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\FWLIB\inc -I ..\SYSTEM -I ..\HARDWARE -I ..\UCOS_CONFIG -I ..\UCOS_CORE -I ..\UCOS_PORT-I.\RTE\_Target_1-ID:\keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="530" -DSTM32F401xE -D_RTE_ -DUSE_STDPERIPH_DRIVER -DUSE_STM324xG_EVAL -DSTM32F401xx-o ..\obj\stm32f4xx_sai.o --omf_browse ..\obj\stm32f4xx_sai.crf --depend ..\obj\stm32f4xx_sai.d)
 I (..\FWLIB\inc\stm32f4xx_sai.h)(0x61F25A3B)
 I (..\USER\stm32f4xx.h)(0x64EF2D12)
 I (..\CORE\core_cm4.h)(0x61F12857)
@@ -1099,7 +1099,7 @@ I (..\FWLIB\inc\stm32f4xx_tim.h)(0x61F25A3E)
 I (..\FWLIB\inc\stm32f4xx_usart.h)(0x61F7A884)
 I (..\FWLIB\inc\stm32f4xx_wwdg.h)(0x61F25A3F)
 I (..\FWLIB\inc\misc.h)(0x61F25A2D)
-F (..\FWLIB\src\stm32f4xx_sdio.c)(0x61F25A53)(--c99 -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\FWLIB\inc -I ..\SYSTEM -I ..\HARDWARE-I.\RTE\_Target_1-ID:\keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="530" -DSTM32F401xE -D_RTE_ -DUSE_STDPERIPH_DRIVER -DUSE_STM324xG_EVAL -DSTM32F401xx-o ..\obj\stm32f4xx_sdio.o --omf_browse ..\obj\stm32f4xx_sdio.crf --depend ..\obj\stm32f4xx_sdio.d)
+F (..\FWLIB\src\stm32f4xx_sdio.c)(0x61F25A53)(--c99 -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\FWLIB\inc -I ..\SYSTEM -I ..\HARDWARE -I ..\UCOS_CONFIG -I ..\UCOS_CORE -I ..\UCOS_PORT-I.\RTE\_Target_1-ID:\keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="530" -DSTM32F401xE -D_RTE_ -DUSE_STDPERIPH_DRIVER -DUSE_STM324xG_EVAL -DSTM32F401xx-o ..\obj\stm32f4xx_sdio.o --omf_browse ..\obj\stm32f4xx_sdio.crf --depend ..\obj\stm32f4xx_sdio.d)
 I (..\FWLIB\inc\stm32f4xx_sdio.h)(0x61F25A3C)
 I (..\USER\stm32f4xx.h)(0x64EF2D12)
 I (..\CORE\core_cm4.h)(0x61F12857)
@@ -1127,7 +1127,7 @@ I (..\FWLIB\inc\stm32f4xx_tim.h)(0x61F25A3E)
 I (..\FWLIB\inc\stm32f4xx_usart.h)(0x61F7A884)
 I (..\FWLIB\inc\stm32f4xx_wwdg.h)(0x61F25A3F)
 I (..\FWLIB\inc\misc.h)(0x61F25A2D)
-F (..\FWLIB\src\stm32f4xx_spdifrx.c)(0x61F25A54)(--c99 -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\FWLIB\inc -I ..\SYSTEM -I ..\HARDWARE-I.\RTE\_Target_1-ID:\keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="530" -DSTM32F401xE -D_RTE_ -DUSE_STDPERIPH_DRIVER -DUSE_STM324xG_EVAL -DSTM32F401xx-o ..\obj\stm32f4xx_spdifrx.o --omf_browse ..\obj\stm32f4xx_spdifrx.crf --depend ..\obj\stm32f4xx_spdifrx.d)
+F (..\FWLIB\src\stm32f4xx_spdifrx.c)(0x61F25A54)(--c99 -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\FWLIB\inc -I ..\SYSTEM -I ..\HARDWARE -I ..\UCOS_CONFIG -I ..\UCOS_CORE -I ..\UCOS_PORT-I.\RTE\_Target_1-ID:\keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="530" -DSTM32F401xE -D_RTE_ -DUSE_STDPERIPH_DRIVER -DUSE_STM324xG_EVAL -DSTM32F401xx-o ..\obj\stm32f4xx_spdifrx.o --omf_browse ..\obj\stm32f4xx_spdifrx.crf --depend ..\obj\stm32f4xx_spdifrx.d)
 I (..\FWLIB\inc\stm32f4xx_spdifrx.h)(0x61F25A3C)
 I (..\USER\stm32f4xx.h)(0x64EF2D12)
 I (..\CORE\core_cm4.h)(0x61F12857)
@@ -1156,7 +1156,7 @@ I (..\FWLIB\inc\stm32f4xx_tim.h)(0x61F25A3E)
 I (..\FWLIB\inc\stm32f4xx_usart.h)(0x61F7A884)
 I (..\FWLIB\inc\stm32f4xx_wwdg.h)(0x61F25A3F)
 I (..\FWLIB\inc\misc.h)(0x61F25A2D)
-F (..\FWLIB\src\stm32f4xx_spi.c)(0x61F7A43B)(--c99 -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\FWLIB\inc -I ..\SYSTEM -I ..\HARDWARE-I.\RTE\_Target_1-ID:\keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="530" -DSTM32F401xE -D_RTE_ -DUSE_STDPERIPH_DRIVER -DUSE_STM324xG_EVAL -DSTM32F401xx-o ..\obj\stm32f4xx_spi.o --omf_browse ..\obj\stm32f4xx_spi.crf --depend ..\obj\stm32f4xx_spi.d)
+F (..\FWLIB\src\stm32f4xx_spi.c)(0x61F7A43B)(--c99 -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\FWLIB\inc -I ..\SYSTEM -I ..\HARDWARE -I ..\UCOS_CONFIG -I ..\UCOS_CORE -I ..\UCOS_PORT-I.\RTE\_Target_1-ID:\keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="530" -DSTM32F401xE -D_RTE_ -DUSE_STDPERIPH_DRIVER -DUSE_STM324xG_EVAL -DSTM32F401xx-o ..\obj\stm32f4xx_spi.o --omf_browse ..\obj\stm32f4xx_spi.crf --depend ..\obj\stm32f4xx_spi.d)
 I (..\FWLIB\inc\stm32f4xx_spi.h)(0x61F25A3D)
 I (..\USER\stm32f4xx.h)(0x64EF2D12)
 I (..\CORE\core_cm4.h)(0x61F12857)
@@ -1184,7 +1184,7 @@ I (..\FWLIB\inc\stm32f4xx_tim.h)(0x61F25A3E)
 I (..\FWLIB\inc\stm32f4xx_usart.h)(0x61F7A884)
 I (..\FWLIB\inc\stm32f4xx_wwdg.h)(0x61F25A3F)
 I (..\FWLIB\inc\misc.h)(0x61F25A2D)
-F (..\FWLIB\src\stm32f4xx_syscfg.c)(0x61F25A55)(--c99 -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\FWLIB\inc -I ..\SYSTEM -I ..\HARDWARE-I.\RTE\_Target_1-ID:\keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="530" -DSTM32F401xE -D_RTE_ -DUSE_STDPERIPH_DRIVER -DUSE_STM324xG_EVAL -DSTM32F401xx-o ..\obj\stm32f4xx_syscfg.o --omf_browse ..\obj\stm32f4xx_syscfg.crf --depend ..\obj\stm32f4xx_syscfg.d)
+F (..\FWLIB\src\stm32f4xx_syscfg.c)(0x61F25A55)(--c99 -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\FWLIB\inc -I ..\SYSTEM -I ..\HARDWARE -I ..\UCOS_CONFIG -I ..\UCOS_CORE -I ..\UCOS_PORT-I.\RTE\_Target_1-ID:\keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="530" -DSTM32F401xE -D_RTE_ -DUSE_STDPERIPH_DRIVER -DUSE_STM324xG_EVAL -DSTM32F401xx-o ..\obj\stm32f4xx_syscfg.o --omf_browse ..\obj\stm32f4xx_syscfg.crf --depend ..\obj\stm32f4xx_syscfg.d)
 I (..\FWLIB\inc\stm32f4xx_syscfg.h)(0x61F25A3E)
 I (..\USER\stm32f4xx.h)(0x64EF2D12)
 I (..\CORE\core_cm4.h)(0x61F12857)
@@ -1212,7 +1212,7 @@ I (..\FWLIB\inc\stm32f4xx_tim.h)(0x61F25A3E)
 I (..\FWLIB\inc\stm32f4xx_usart.h)(0x61F7A884)
 I (..\FWLIB\inc\stm32f4xx_wwdg.h)(0x61F25A3F)
 I (..\FWLIB\inc\misc.h)(0x61F25A2D)
-F (..\FWLIB\src\stm32f4xx_tim.c)(0x61F25A55)(--c99 -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\FWLIB\inc -I ..\SYSTEM -I ..\HARDWARE-I.\RTE\_Target_1-ID:\keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="530" -DSTM32F401xE -D_RTE_ -DUSE_STDPERIPH_DRIVER -DUSE_STM324xG_EVAL -DSTM32F401xx-o ..\obj\stm32f4xx_tim.o --omf_browse ..\obj\stm32f4xx_tim.crf --depend ..\obj\stm32f4xx_tim.d)
+F (..\FWLIB\src\stm32f4xx_tim.c)(0x61F25A55)(--c99 -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\FWLIB\inc -I ..\SYSTEM -I ..\HARDWARE -I ..\UCOS_CONFIG -I ..\UCOS_CORE -I ..\UCOS_PORT-I.\RTE\_Target_1-ID:\keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="530" -DSTM32F401xE -D_RTE_ -DUSE_STDPERIPH_DRIVER -DUSE_STM324xG_EVAL -DSTM32F401xx-o ..\obj\stm32f4xx_tim.o --omf_browse ..\obj\stm32f4xx_tim.crf --depend ..\obj\stm32f4xx_tim.d)
 I (..\FWLIB\inc\stm32f4xx_tim.h)(0x61F25A3E)
 I (..\USER\stm32f4xx.h)(0x64EF2D12)
 I (..\CORE\core_cm4.h)(0x61F12857)
@@ -1240,7 +1240,7 @@ I (..\FWLIB\inc\stm32f4xx_syscfg.h)(0x61F25A3E)
 I (..\FWLIB\inc\stm32f4xx_usart.h)(0x61F7A884)
 I (..\FWLIB\inc\stm32f4xx_wwdg.h)(0x61F25A3F)
 I (..\FWLIB\inc\misc.h)(0x61F25A2D)
-F (..\FWLIB\src\stm32f4xx_usart.c)(0x61F25A56)(--c99 -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\FWLIB\inc -I ..\SYSTEM -I ..\HARDWARE-I.\RTE\_Target_1-ID:\keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="530" -DSTM32F401xE -D_RTE_ -DUSE_STDPERIPH_DRIVER -DUSE_STM324xG_EVAL -DSTM32F401xx-o ..\obj\stm32f4xx_usart.o --omf_browse ..\obj\stm32f4xx_usart.crf --depend ..\obj\stm32f4xx_usart.d)
+F (..\FWLIB\src\stm32f4xx_usart.c)(0x61F25A56)(--c99 -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\FWLIB\inc -I ..\SYSTEM -I ..\HARDWARE -I ..\UCOS_CONFIG -I ..\UCOS_CORE -I ..\UCOS_PORT-I.\RTE\_Target_1-ID:\keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="530" -DSTM32F401xE -D_RTE_ -DUSE_STDPERIPH_DRIVER -DUSE_STM324xG_EVAL -DSTM32F401xx-o ..\obj\stm32f4xx_usart.o --omf_browse ..\obj\stm32f4xx_usart.crf --depend ..\obj\stm32f4xx_usart.d)
 I (..\FWLIB\inc\stm32f4xx_usart.h)(0x61F7A884)
 I (..\USER\stm32f4xx.h)(0x64EF2D12)
 I (..\CORE\core_cm4.h)(0x61F12857)
@@ -1268,7 +1268,7 @@ I (..\FWLIB\inc\stm32f4xx_syscfg.h)(0x61F25A3E)
 I (..\FWLIB\inc\stm32f4xx_tim.h)(0x61F25A3E)
 I (..\FWLIB\inc\stm32f4xx_wwdg.h)(0x61F25A3F)
 I (..\FWLIB\inc\misc.h)(0x61F25A2D)
-F (..\FWLIB\src\stm32f4xx_wwdg.c)(0x61F25A57)(--c99 -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\FWLIB\inc -I ..\SYSTEM -I ..\HARDWARE-I.\RTE\_Target_1-ID:\keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="530" -DSTM32F401xE -D_RTE_ -DUSE_STDPERIPH_DRIVER -DUSE_STM324xG_EVAL -DSTM32F401xx-o ..\obj\stm32f4xx_wwdg.o --omf_browse ..\obj\stm32f4xx_wwdg.crf --depend ..\obj\stm32f4xx_wwdg.d)
+F (..\FWLIB\src\stm32f4xx_wwdg.c)(0x61F25A57)(--c99 -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\FWLIB\inc -I ..\SYSTEM -I ..\HARDWARE -I ..\UCOS_CONFIG -I ..\UCOS_CORE -I ..\UCOS_PORT-I.\RTE\_Target_1-ID:\keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="530" -DSTM32F401xE -D_RTE_ -DUSE_STDPERIPH_DRIVER -DUSE_STM324xG_EVAL -DSTM32F401xx-o ..\obj\stm32f4xx_wwdg.o --omf_browse ..\obj\stm32f4xx_wwdg.crf --depend ..\obj\stm32f4xx_wwdg.d)
 I (..\FWLIB\inc\stm32f4xx_wwdg.h)(0x61F25A3F)
 I (..\USER\stm32f4xx.h)(0x64EF2D12)
 I (..\CORE\core_cm4.h)(0x61F12857)
@@ -1296,7 +1296,7 @@ I (..\FWLIB\inc\stm32f4xx_syscfg.h)(0x61F25A3E)
 I (..\FWLIB\inc\stm32f4xx_tim.h)(0x61F25A3E)
 I (..\FWLIB\inc\stm32f4xx_usart.h)(0x61F7A884)
 I (..\FWLIB\inc\misc.h)(0x61F25A2D)
-F (..\HARDWARE\MyI2C.c)(0x654ADC20)(--c99 -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\FWLIB\inc -I ..\SYSTEM -I ..\HARDWARE-I.\RTE\_Target_1-ID:\keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="530" -DSTM32F401xE -D_RTE_ -DUSE_STDPERIPH_DRIVER -DUSE_STM324xG_EVAL -DSTM32F401xx-o ..\obj\myi2c.o --omf_browse ..\obj\myi2c.crf --depend ..\obj\myi2c.d)
+F (..\HARDWARE\MyI2C.c)(0x654ADC20)(--c99 -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\FWLIB\inc -I ..\SYSTEM -I ..\HARDWARE -I ..\UCOS_CONFIG -I ..\UCOS_CORE -I ..\UCOS_PORT-I.\RTE\_Target_1-ID:\keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="530" -DSTM32F401xE -D_RTE_ -DUSE_STDPERIPH_DRIVER -DUSE_STM324xG_EVAL -DSTM32F401xx-o ..\obj\myi2c.o --omf_browse ..\obj\myi2c.crf --depend ..\obj\myi2c.d)
 I (..\USER\stm32f4xx.h)(0x64EF2D12)
 I (..\CORE\core_cm4.h)(0x61F12857)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
@@ -1326,7 +1326,7 @@ I (..\FWLIB\inc\stm32f4xx_wwdg.h)(0x61F25A3F)
 I (..\FWLIB\inc\misc.h)(0x61F25A2D)
 I (..\SYSTEM\Delay.h)(0x64F006C8)
 F (..\HARDWARE\MyI2C.h)(0x63C4F929)()
-F (..\HARDWARE\MPU.c)(0x655488DA)(--c99 -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\FWLIB\inc -I ..\SYSTEM -I ..\HARDWARE-I.\RTE\_Target_1-ID:\keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="530" -DSTM32F401xE -D_RTE_ -DUSE_STDPERIPH_DRIVER -DUSE_STM324xG_EVAL -DSTM32F401xx-o ..\obj\mpu.o --omf_browse ..\obj\mpu.crf --depend ..\obj\mpu.d)
+F (..\HARDWARE\MPU.c)(0x655488DA)(--c99 -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\FWLIB\inc -I ..\SYSTEM -I ..\HARDWARE -I ..\UCOS_CONFIG -I ..\UCOS_CORE -I ..\UCOS_PORT-I.\RTE\_Target_1-ID:\keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="530" -DSTM32F401xE -D_RTE_ -DUSE_STDPERIPH_DRIVER -DUSE_STM324xG_EVAL -DSTM32F401xx-o ..\obj\mpu.o --omf_browse ..\obj\mpu.crf --depend ..\obj\mpu.d)
 I (..\USER\stm32f4xx.h)(0x64EF2D12)
 I (..\CORE\core_cm4.h)(0x61F12857)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
@@ -1359,7 +1359,7 @@ I (..\HARDWARE\MPU.h)(0x655488DA)
 I (..\HARDWARE\MPU6050Adress.h)(0x65005673)
 F (..\HARDWARE\MPU.h)(0x655488DA)()
 F (..\HARDWARE\MPU6050Adress.h)(0x65005673)()
-F (..\HARDWARE\HMC5883L.c)(0x655DBF08)(--c99 -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\FWLIB\inc -I ..\SYSTEM -I ..\HARDWARE-I.\RTE\_Target_1-ID:\keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="530" -DSTM32F401xE -D_RTE_ -DUSE_STDPERIPH_DRIVER -DUSE_STM324xG_EVAL -DSTM32F401xx-o ..\obj\hmc5883l.o --omf_browse ..\obj\hmc5883l.crf --depend ..\obj\hmc5883l.d)
+F (..\HARDWARE\HMC5883L.c)(0x655DBF08)(--c99 -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\FWLIB\inc -I ..\SYSTEM -I ..\HARDWARE -I ..\UCOS_CONFIG -I ..\UCOS_CORE -I ..\UCOS_PORT-I.\RTE\_Target_1-ID:\keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="530" -DSTM32F401xE -D_RTE_ -DUSE_STDPERIPH_DRIVER -DUSE_STM324xG_EVAL -DSTM32F401xx-o ..\obj\hmc5883l.o --omf_browse ..\obj\hmc5883l.crf --depend ..\obj\hmc5883l.d)
 I (..\USER\stm32f4xx.h)(0x64EF2D12)
 I (..\CORE\core_cm4.h)(0x61F12857)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
@@ -1388,12 +1388,12 @@ I (..\FWLIB\inc\stm32f4xx_usart.h)(0x61F7A884)
 I (..\FWLIB\inc\stm32f4xx_wwdg.h)(0x61F25A3F)
 I (..\FWLIB\inc\misc.h)(0x61F25A2D)
 I (..\HARDWARE\MyI2C.h)(0x63C4F929)
-I (..\HARDWARE\HMC5883L.h)(0x655488DA)
+I (..\HARDWARE\HMC5883L.h)(0x65DFFFD6)
 I (..\HARDWARE\HMC5883LAdress.h)(0x650FDF19)
 I (C:\Keil_v5\ARM\ARMCC\include\math.h)(0x5E8E2EB2)
-F (..\HARDWARE\HMC5883L.h)(0x655488DA)()
+F (..\HARDWARE\HMC5883L.h)(0x65DFFFD6)()
 F (..\HARDWARE\HMC5883LAdress.h)(0x650FDF19)()
-F (..\HARDWARE\Serial.c)(0x655B259E)(--c99 -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\FWLIB\inc -I ..\SYSTEM -I ..\HARDWARE-I.\RTE\_Target_1-ID:\keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="530" -DSTM32F401xE -D_RTE_ -DUSE_STDPERIPH_DRIVER -DUSE_STM324xG_EVAL -DSTM32F401xx-o ..\obj\serial.o --omf_browse ..\obj\serial.crf --depend ..\obj\serial.d)
+F (..\HARDWARE\Serial.c)(0x655B259E)(--c99 -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\FWLIB\inc -I ..\SYSTEM -I ..\HARDWARE -I ..\UCOS_CONFIG -I ..\UCOS_CORE -I ..\UCOS_PORT-I.\RTE\_Target_1-ID:\keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="530" -DSTM32F401xE -D_RTE_ -DUSE_STDPERIPH_DRIVER -DUSE_STM324xG_EVAL -DSTM32F401xx-o ..\obj\serial.o --omf_browse ..\obj\serial.crf --depend ..\obj\serial.d)
 I (..\USER\stm32f4xx.h)(0x64EF2D12)
 I (..\CORE\core_cm4.h)(0x61F12857)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
@@ -1424,9 +1424,7 @@ I (..\FWLIB\inc\misc.h)(0x61F25A2D)
 I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E8E2EB2)
 I (..\HARDWARE\Serial.h)(0x6548FBBA)
 F (..\HARDWARE\Serial.h)(0x6548FBBA)()
-F (..\HARDWARE\Moter.h)(0x6548AE3F)()
-F (..\HARDWARE\Receiver.h)(0x65548A0F)()
-F (..\HARDWARE\Receiver.c)(0x6548E43D)(--c99 -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\FWLIB\inc -I ..\SYSTEM -I ..\HARDWARE-I.\RTE\_Target_1-ID:\keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="530" -DSTM32F401xE -D_RTE_ -DUSE_STDPERIPH_DRIVER -DUSE_STM324xG_EVAL -DSTM32F401xx-o ..\obj\receiver.o --omf_browse ..\obj\receiver.crf --depend ..\obj\receiver.d)
+F (..\HARDWARE\Receiver.c)(0x65DFFFAF)(--c99 -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\FWLIB\inc -I ..\SYSTEM -I ..\HARDWARE -I ..\UCOS_CONFIG -I ..\UCOS_CORE -I ..\UCOS_PORT-I.\RTE\_Target_1-ID:\keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="530" -DSTM32F401xE -D_RTE_ -DUSE_STDPERIPH_DRIVER -DUSE_STM324xG_EVAL -DSTM32F401xx-o ..\obj\receiver.o --omf_browse ..\obj\receiver.crf --depend ..\obj\receiver.d)
 I (..\USER\stm32f4xx.h)(0x64EF2D12)
 I (..\CORE\core_cm4.h)(0x61F12857)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
@@ -1454,8 +1452,9 @@ I (..\FWLIB\inc\stm32f4xx_tim.h)(0x61F25A3E)
 I (..\FWLIB\inc\stm32f4xx_usart.h)(0x61F7A884)
 I (..\FWLIB\inc\stm32f4xx_wwdg.h)(0x61F25A3F)
 I (..\FWLIB\inc\misc.h)(0x61F25A2D)
-I (..\HARDWARE\Receiver.h)(0x65548A0F)
-F (..\HARDWARE\Moter.c)(0x65605095)(--c99 -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\FWLIB\inc -I ..\SYSTEM -I ..\HARDWARE-I.\RTE\_Target_1-ID:\keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="530" -DSTM32F401xE -D_RTE_ -DUSE_STDPERIPH_DRIVER -DUSE_STM324xG_EVAL -DSTM32F401xx-o ..\obj\moter.o --omf_browse ..\obj\moter.crf --depend ..\obj\moter.d)
+I (..\HARDWARE\Receiver.h)(0x65DFFFA6)
+F (..\HARDWARE\Receiver.h)(0x65DFFFA6)()
+F (..\HARDWARE\Moter.c)(0x65605095)(--c99 -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\FWLIB\inc -I ..\SYSTEM -I ..\HARDWARE -I ..\UCOS_CONFIG -I ..\UCOS_CORE -I ..\UCOS_PORT-I.\RTE\_Target_1-ID:\keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="530" -DSTM32F401xE -D_RTE_ -DUSE_STDPERIPH_DRIVER -DUSE_STM324xG_EVAL -DSTM32F401xx-o ..\obj\moter.o --omf_browse ..\obj\moter.crf --depend ..\obj\moter.d)
 I (..\USER\stm32f4xx.h)(0x64EF2D12)
 I (..\CORE\core_cm4.h)(0x61F12857)
 I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E2EB2)
@@ -1483,6 +1482,119 @@ I (..\FWLIB\inc\stm32f4xx_tim.h)(0x61F25A3E)
 I (..\FWLIB\inc\stm32f4xx_usart.h)(0x61F7A884)
 I (..\FWLIB\inc\stm32f4xx_wwdg.h)(0x61F25A3F)
 I (..\FWLIB\inc\misc.h)(0x61F25A2D)
-I (..\HARDWARE\Moter.h)(0x6548AE3F)
+I (..\HARDWARE\Moter.h)(0x65DFFFA6)
 I (..\SYSTEM\Delay.h)(0x64F006C8)
-I (..\HARDWARE\Receiver.h)(0x65548A0F)
+I (..\HARDWARE\Receiver.h)(0x65DFFFA6)
+F (..\HARDWARE\Moter.h)(0x65DFFFA6)()
+F (..\UCOS_CONFIG\os_cfg.h)(0x6092E03D)()
+F (..\UCOS_CONFIG\app_cfg.h)(0x65DFEBDB)()
+F (..\UCOS_CONFIG\app_hooks.c)(0x6092E03D)(--c99 -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\FWLIB\inc -I ..\SYSTEM -I ..\HARDWARE -I ..\UCOS_CONFIG -I ..\UCOS_CORE -I ..\UCOS_PORT-I.\RTE\_Target_1-ID:\keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="530" -DSTM32F401xE -D_RTE_ -DUSE_STDPERIPH_DRIVER -DUSE_STM324xG_EVAL -DSTM32F401xx-o ..\obj\app_hooks.o --omf_browse ..\obj\app_hooks.crf --depend ..\obj\app_hooks.d)
+I (..\UCOS_CORE\os.h)(0x6092E03D)
+I (..\UCOS_CORE\ucos_ii.h)(0x65DFFBAA)
+I (..\UCOS_CORE\os_trace.h)(0x65DFF2E6)
+I (..\UCOS_CONFIG\os_cfg.h)(0x6092E03D)
+I (..\UCOS_CONFIG\app_cfg.h)(0x65DFEBDB)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5E8E2EB2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E8E2EB2)
+I (..\UCOS_PORT\os_cpu.h)(0x65DFFC4F)
+F (..\UCOS_CORE\os_core.c)(0x65DFF597)(--c99 -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\FWLIB\inc -I ..\SYSTEM -I ..\HARDWARE -I ..\UCOS_CONFIG -I ..\UCOS_CORE -I ..\UCOS_PORT-I.\RTE\_Target_1-ID:\keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="530" -DSTM32F401xE -D_RTE_ -DUSE_STDPERIPH_DRIVER -DUSE_STM324xG_EVAL -DSTM32F401xx-o ..\obj\os_core.o --omf_browse ..\obj\os_core.crf --depend ..\obj\os_core.d)
+I (..\UCOS_CORE\ucos_ii.h)(0x65DFFBAA)
+I (..\UCOS_CORE\os_trace.h)(0x65DFF2E6)
+I (..\UCOS_CONFIG\os_cfg.h)(0x6092E03D)
+I (..\UCOS_CONFIG\app_cfg.h)(0x65DFEBDB)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5E8E2EB2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E8E2EB2)
+I (..\UCOS_PORT\os_cpu.h)(0x65DFFC4F)
+F (..\UCOS_CORE\os_dbg_r.c)(0x6092E03D)(--c99 -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\FWLIB\inc -I ..\SYSTEM -I ..\HARDWARE -I ..\UCOS_CONFIG -I ..\UCOS_CORE -I ..\UCOS_PORT-I.\RTE\_Target_1-ID:\keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="530" -DSTM32F401xE -D_RTE_ -DUSE_STDPERIPH_DRIVER -DUSE_STM324xG_EVAL -DSTM32F401xx-o ..\obj\os_dbg_r.o --omf_browse ..\obj\os_dbg_r.crf --depend ..\obj\os_dbg_r.d)
+I (..\UCOS_CORE\ucos_ii.h)(0x65DFFBAA)
+I (..\UCOS_CORE\os_trace.h)(0x65DFF2E6)
+I (..\UCOS_CONFIG\os_cfg.h)(0x6092E03D)
+I (..\UCOS_CONFIG\app_cfg.h)(0x65DFEBDB)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5E8E2EB2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E8E2EB2)
+I (..\UCOS_PORT\os_cpu.h)(0x65DFFC4F)
+F (..\UCOS_CORE\os_flag.c)(0x6092E03D)(--c99 -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\FWLIB\inc -I ..\SYSTEM -I ..\HARDWARE -I ..\UCOS_CONFIG -I ..\UCOS_CORE -I ..\UCOS_PORT-I.\RTE\_Target_1-ID:\keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="530" -DSTM32F401xE -D_RTE_ -DUSE_STDPERIPH_DRIVER -DUSE_STM324xG_EVAL -DSTM32F401xx-o ..\obj\os_flag.o --omf_browse ..\obj\os_flag.crf --depend ..\obj\os_flag.d)
+I (..\UCOS_CORE\ucos_ii.h)(0x65DFFBAA)
+I (..\UCOS_CORE\os_trace.h)(0x65DFF2E6)
+I (..\UCOS_CONFIG\os_cfg.h)(0x6092E03D)
+I (..\UCOS_CONFIG\app_cfg.h)(0x65DFEBDB)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5E8E2EB2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E8E2EB2)
+I (..\UCOS_PORT\os_cpu.h)(0x65DFFC4F)
+F (..\UCOS_CORE\os_mbox.c)(0x6092E03D)(--c99 -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\FWLIB\inc -I ..\SYSTEM -I ..\HARDWARE -I ..\UCOS_CONFIG -I ..\UCOS_CORE -I ..\UCOS_PORT-I.\RTE\_Target_1-ID:\keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="530" -DSTM32F401xE -D_RTE_ -DUSE_STDPERIPH_DRIVER -DUSE_STM324xG_EVAL -DSTM32F401xx-o ..\obj\os_mbox.o --omf_browse ..\obj\os_mbox.crf --depend ..\obj\os_mbox.d)
+I (..\UCOS_CORE\ucos_ii.h)(0x65DFFBAA)
+I (..\UCOS_CORE\os_trace.h)(0x65DFF2E6)
+I (..\UCOS_CONFIG\os_cfg.h)(0x6092E03D)
+I (..\UCOS_CONFIG\app_cfg.h)(0x65DFEBDB)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5E8E2EB2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E8E2EB2)
+I (..\UCOS_PORT\os_cpu.h)(0x65DFFC4F)
+F (..\UCOS_CORE\os_mem.c)(0x6092E03D)(--c99 -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\FWLIB\inc -I ..\SYSTEM -I ..\HARDWARE -I ..\UCOS_CONFIG -I ..\UCOS_CORE -I ..\UCOS_PORT-I.\RTE\_Target_1-ID:\keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="530" -DSTM32F401xE -D_RTE_ -DUSE_STDPERIPH_DRIVER -DUSE_STM324xG_EVAL -DSTM32F401xx-o ..\obj\os_mem.o --omf_browse ..\obj\os_mem.crf --depend ..\obj\os_mem.d)
+I (..\UCOS_CORE\ucos_ii.h)(0x65DFFBAA)
+I (..\UCOS_CORE\os_trace.h)(0x65DFF2E6)
+I (..\UCOS_CONFIG\os_cfg.h)(0x6092E03D)
+I (..\UCOS_CONFIG\app_cfg.h)(0x65DFEBDB)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5E8E2EB2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E8E2EB2)
+I (..\UCOS_PORT\os_cpu.h)(0x65DFFC4F)
+F (..\UCOS_CORE\os_mutex.c)(0x6092E03D)(--c99 -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\FWLIB\inc -I ..\SYSTEM -I ..\HARDWARE -I ..\UCOS_CONFIG -I ..\UCOS_CORE -I ..\UCOS_PORT-I.\RTE\_Target_1-ID:\keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="530" -DSTM32F401xE -D_RTE_ -DUSE_STDPERIPH_DRIVER -DUSE_STM324xG_EVAL -DSTM32F401xx-o ..\obj\os_mutex.o --omf_browse ..\obj\os_mutex.crf --depend ..\obj\os_mutex.d)
+I (..\UCOS_CORE\ucos_ii.h)(0x65DFFBAA)
+I (..\UCOS_CORE\os_trace.h)(0x65DFF2E6)
+I (..\UCOS_CONFIG\os_cfg.h)(0x6092E03D)
+I (..\UCOS_CONFIG\app_cfg.h)(0x65DFEBDB)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5E8E2EB2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E8E2EB2)
+I (..\UCOS_PORT\os_cpu.h)(0x65DFFC4F)
+F (..\UCOS_CORE\os_q.c)(0x6092E03D)(--c99 -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\FWLIB\inc -I ..\SYSTEM -I ..\HARDWARE -I ..\UCOS_CONFIG -I ..\UCOS_CORE -I ..\UCOS_PORT-I.\RTE\_Target_1-ID:\keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="530" -DSTM32F401xE -D_RTE_ -DUSE_STDPERIPH_DRIVER -DUSE_STM324xG_EVAL -DSTM32F401xx-o ..\obj\os_q.o --omf_browse ..\obj\os_q.crf --depend ..\obj\os_q.d)
+I (..\UCOS_CORE\ucos_ii.h)(0x65DFFBAA)
+I (..\UCOS_CORE\os_trace.h)(0x65DFF2E6)
+I (..\UCOS_CONFIG\os_cfg.h)(0x6092E03D)
+I (..\UCOS_CONFIG\app_cfg.h)(0x65DFEBDB)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5E8E2EB2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E8E2EB2)
+I (..\UCOS_PORT\os_cpu.h)(0x65DFFC4F)
+F (..\UCOS_CORE\os_sem.c)(0x6092E03D)(--c99 -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\FWLIB\inc -I ..\SYSTEM -I ..\HARDWARE -I ..\UCOS_CONFIG -I ..\UCOS_CORE -I ..\UCOS_PORT-I.\RTE\_Target_1-ID:\keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="530" -DSTM32F401xE -D_RTE_ -DUSE_STDPERIPH_DRIVER -DUSE_STM324xG_EVAL -DSTM32F401xx-o ..\obj\os_sem.o --omf_browse ..\obj\os_sem.crf --depend ..\obj\os_sem.d)
+I (..\UCOS_CORE\ucos_ii.h)(0x65DFFBAA)
+I (..\UCOS_CORE\os_trace.h)(0x65DFF2E6)
+I (..\UCOS_CONFIG\os_cfg.h)(0x6092E03D)
+I (..\UCOS_CONFIG\app_cfg.h)(0x65DFEBDB)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5E8E2EB2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E8E2EB2)
+I (..\UCOS_PORT\os_cpu.h)(0x65DFFC4F)
+F (..\UCOS_CORE\os_task.c)(0x65DFFBAA)(--c99 -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\FWLIB\inc -I ..\SYSTEM -I ..\HARDWARE -I ..\UCOS_CONFIG -I ..\UCOS_CORE -I ..\UCOS_PORT-I.\RTE\_Target_1-ID:\keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="530" -DSTM32F401xE -D_RTE_ -DUSE_STDPERIPH_DRIVER -DUSE_STM324xG_EVAL -DSTM32F401xx-o ..\obj\os_task.o --omf_browse ..\obj\os_task.crf --depend ..\obj\os_task.d)
+I (..\UCOS_CORE\ucos_ii.h)(0x65DFFBAA)
+I (..\UCOS_CORE\os_trace.h)(0x65DFF2E6)
+I (..\UCOS_CONFIG\os_cfg.h)(0x6092E03D)
+I (..\UCOS_CONFIG\app_cfg.h)(0x65DFEBDB)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5E8E2EB2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E8E2EB2)
+I (..\UCOS_PORT\os_cpu.h)(0x65DFFC4F)
+F (..\UCOS_CORE\os_time.c)(0x6092E03D)(--c99 -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\FWLIB\inc -I ..\SYSTEM -I ..\HARDWARE -I ..\UCOS_CONFIG -I ..\UCOS_CORE -I ..\UCOS_PORT-I.\RTE\_Target_1-ID:\keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="530" -DSTM32F401xE -D_RTE_ -DUSE_STDPERIPH_DRIVER -DUSE_STM324xG_EVAL -DSTM32F401xx-o ..\obj\os_time.o --omf_browse ..\obj\os_time.crf --depend ..\obj\os_time.d)
+I (..\UCOS_CORE\ucos_ii.h)(0x65DFFBAA)
+I (..\UCOS_CORE\os_trace.h)(0x65DFF2E6)
+I (..\UCOS_CONFIG\os_cfg.h)(0x6092E03D)
+I (..\UCOS_CONFIG\app_cfg.h)(0x65DFEBDB)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5E8E2EB2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E8E2EB2)
+I (..\UCOS_PORT\os_cpu.h)(0x65DFFC4F)
+F (..\UCOS_CORE\os_tmr.c)(0x65DFFE31)(--c99 -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\FWLIB\inc -I ..\SYSTEM -I ..\HARDWARE -I ..\UCOS_CONFIG -I ..\UCOS_CORE -I ..\UCOS_PORT-I.\RTE\_Target_1-ID:\keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="530" -DSTM32F401xE -D_RTE_ -DUSE_STDPERIPH_DRIVER -DUSE_STM324xG_EVAL -DSTM32F401xx-o ..\obj\os_tmr.o --omf_browse ..\obj\os_tmr.crf --depend ..\obj\os_tmr.d)
+I (..\UCOS_CORE\ucos_ii.h)(0x65DFFBAA)
+I (..\UCOS_CORE\os_trace.h)(0x65DFF2E6)
+I (..\UCOS_CONFIG\os_cfg.h)(0x6092E03D)
+I (..\UCOS_CONFIG\app_cfg.h)(0x65DFEBDB)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5E8E2EB2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E8E2EB2)
+I (..\UCOS_PORT\os_cpu.h)(0x65DFFC4F)
+F (..\UCOS_CORE\ucos_ii.h)(0x65DFFBAA)()
+F (..\UCOS_CORE\os.h)(0x6092E03D)()
+F (..\UCOS_CORE\os_trace.h)(0x65DFF2E6)()
+F (..\UCOS_PORT\os_cpu.h)(0x65DFFC4F)()
+F (..\UCOS_PORT\os_cpu_a.asm)(0x6092E03D)(--cpu Cortex-M4.fp.sp -g --apcs=interwork -I.\RTE\_Target_1-ID:\keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\Keil_v5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 530" --pd "STM32F401xE SETA 1" --pd "_RTE_ SETA 1"--list .\listings\os_cpu_a.lst --xref -o ..\obj\os_cpu_a.o --depend ..\obj\os_cpu_a.d)
+F (..\UCOS_PORT\os_cpu_c.c)(0x65DFFF42)(--c99 -c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\FWLIB\inc -I ..\SYSTEM -I ..\HARDWARE -I ..\UCOS_CONFIG -I ..\UCOS_CORE -I ..\UCOS_PORT-I.\RTE\_Target_1-ID:\keil\STM32F4xx_DFP\2.17.1\Drivers\CMSIS\Device\ST\STM32F4xx\Include-IC:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="530" -DSTM32F401xE -D_RTE_ -DUSE_STDPERIPH_DRIVER -DUSE_STM324xG_EVAL -DSTM32F401xx-o ..\obj\os_cpu_c.o --omf_browse ..\obj\os_cpu_c.crf --depend ..\obj\os_cpu_c.d)
+I (..\UCOS_CORE\ucos_ii.h)(0x65DFFBAA)
+I (..\UCOS_CORE\os_trace.h)(0x65DFF2E6)
+I (..\UCOS_CONFIG\os_cfg.h)(0x6092E03D)
+I (..\UCOS_CONFIG\app_cfg.h)(0x65DFEBDB)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5E8E2EB2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E8E2EB2)
+I (..\UCOS_PORT\os_cpu.h)(0x65DFFC4F)
